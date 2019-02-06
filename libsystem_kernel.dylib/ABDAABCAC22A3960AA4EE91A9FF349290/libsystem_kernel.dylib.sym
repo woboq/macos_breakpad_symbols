@@ -1,0 +1,1593 @@
+MODULE mac x86_64 ABDAABCAC22A3960AA4EE91A9FF349290 libsystem_kernel.dylib
+PUBLIC f60 0 __libkernel_init
+PUBLIC feb 0 mach_init
+PUBLIC 1009 0 mach_init_doit
+PUBLIC 108c 0 _kernelrpc_mach_vm_allocate_trap
+PUBLIC 1098 0 _kernelrpc_mach_vm_purgable_control_trap
+PUBLIC 10a4 0 _kernelrpc_mach_vm_deallocate_trap
+PUBLIC 10b0 0 _kernelrpc_mach_vm_protect_trap
+PUBLIC 10bc 0 _kernelrpc_mach_vm_map_trap
+PUBLIC 10c8 0 _kernelrpc_mach_port_allocate_trap
+PUBLIC 10d4 0 _kernelrpc_mach_port_destroy_trap
+PUBLIC 10e0 0 _kernelrpc_mach_port_deallocate_trap
+PUBLIC 10ec 0 _kernelrpc_mach_port_mod_refs_trap
+PUBLIC 10f8 0 _kernelrpc_mach_port_move_member_trap
+PUBLIC 1104 0 _kernelrpc_mach_port_insert_right_trap
+PUBLIC 1110 0 _kernelrpc_mach_port_insert_member_trap
+PUBLIC 111c 0 _kernelrpc_mach_port_extract_member_trap
+PUBLIC 1128 0 _kernelrpc_mach_port_construct_trap
+PUBLIC 1134 0 _kernelrpc_mach_port_destruct_trap
+PUBLIC 1140 0 mach_reply_port
+PUBLIC 114c 0 thread_self_trap
+PUBLIC 1158 0 task_self_trap
+PUBLIC 1164 0 host_self_trap
+PUBLIC 1170 0 mach_msg_trap
+PUBLIC 117c 0 mach_msg_overwrite_trap
+PUBLIC 1188 0 semaphore_signal_trap
+PUBLIC 1194 0 semaphore_signal_all_trap
+PUBLIC 11a0 0 semaphore_signal_thread_trap
+PUBLIC 11ac 0 semaphore_wait_trap
+PUBLIC 11b8 0 semaphore_wait_signal_trap
+PUBLIC 11c4 0 semaphore_timedwait_trap
+PUBLIC 11d0 0 semaphore_timedwait_signal_trap
+PUBLIC 11dc 0 _kernelrpc_mach_port_get_attributes_trap
+PUBLIC 11e8 0 _kernelrpc_mach_port_guard_trap
+PUBLIC 11f4 0 _kernelrpc_mach_port_unguard_trap
+PUBLIC 1200 0 mach_generate_activity_id
+PUBLIC 120c 0 task_name_for_pid
+PUBLIC 1218 0 task_for_pid
+PUBLIC 1224 0 pid_for_task
+PUBLIC 1230 0 macx_swapon
+PUBLIC 123c 0 macx_swapoff
+PUBLIC 1248 0 thread_get_special_reply_port
+PUBLIC 1254 0 macx_triggers
+PUBLIC 1260 0 macx_backing_store_suspend
+PUBLIC 126c 0 macx_backing_store_recovery
+PUBLIC 1278 0 swtch_pri
+PUBLIC 1284 0 swtch
+PUBLIC 1290 0 syscall_thread_switch
+PUBLIC 129c 0 clock_sleep_trap
+PUBLIC 12a8 0 host_create_mach_voucher_trap
+PUBLIC 12b4 0 mach_voucher_extract_attr_recipe_trap
+PUBLIC 12c0 0 mach_timebase_info_trap
+PUBLIC 12cc 0 mach_wait_until
+PUBLIC 12d8 0 mk_timer_create
+PUBLIC 12e4 0 mk_timer_destroy
+PUBLIC 12f0 0 mk_timer_arm
+PUBLIC 12fc 0 mk_timer_cancel
+PUBLIC 1308 0 mk_timer_arm_leeway
+PUBLIC 1313 0 _init_cpu_capabilities
+PUBLIC 1324 0 _get_cpu_capabilities
+PUBLIC 1332 0 _pthread_set_self
+PUBLIC 1333 0 strcmp
+PUBLIC 1340 0 _libkernel_strcmp
+PUBLIC 136c 0 access
+PUBLIC 1381 0 cerror
+PUBLIC 13aa 0 _pthread_exit_if_canceled
+PUBLIC 13b7 0 cerror_nocancel
+PUBLIC 13dc 0 mach_vm_map
+PUBLIC 14b7 0 __libkernel_platform_init
+PUBLIC 14c1 0 mach_host_self
+PUBLIC 14c6 0 host_info
+PUBLIC 166f 0 mig_get_reply_port
+PUBLIC 1694 0 mach_msg
+PUBLIC 177a 0 memcpy
+PUBLIC 1787 0 mach_port_deallocate
+PUBLIC 17b2 0 mach_thread_self
+PUBLIC 17b8 0 __bsdthread_register
+PUBLIC 17cd 0 host_get_clock_service
+PUBLIC 18d7 0 semaphore_create
+PUBLIC 19e4 0 __sysctlbyname
+PUBLIC 19fc 0 issetugid
+PUBLIC 1a11 0 ioctl
+PUBLIC 1ab4 0 __ioctl
+PUBLIC 1ac9 0 __error
+PUBLIC 1ae4 0 __mprotect
+PUBLIC 1af9 0 mach_vm_allocate
+PUBLIC 1b6f 0 mach_absolute_time
+PUBLIC 1bb8 0 getentropy
+PUBLIC 1bcd 0 __libkernel_voucher_init
+PUBLIC 1bd8 0 __getpid
+PUBLIC 1c09 0 kdebug_trace
+PUBLIC 1c60 0 kdebug_is_enabled
+PUBLIC 1cac 0 kdebug_typefilter
+PUBLIC 1d18 0 __kdebug_typefilter
+PUBLIC 1d2d 0 proc_track_dirty
+PUBLIC 1d68 0 __proc_info
+PUBLIC 1d80 0 __sigaction
+PUBLIC 1d95 0 task_get_special_port
+PUBLIC 1e9f 0 mach_port_mod_refs
+PUBLIC 1ee4 0 csops
+PUBLIC 1ef9 0 proc_pidinfo
+PUBLIC 1f21 0 mach_port_construct
+PUBLIC 1f64 0 task_set_special_port
+PUBLIC 2050 0 geteuid
+PUBLIC 2068 0 getuid
+PUBLIC 2080 0 __sysctl
+PUBLIC 2098 0 __gettid
+PUBLIC 20b0 0 getegid
+PUBLIC 20c5 0 getrlimit
+PUBLIC 20d0 0 __getrlimit
+PUBLIC 20e8 0 __open_nocancel
+PUBLIC 2100 0 fstat$INODE64
+PUBLIC 2118 0 __read_nocancel
+PUBLIC 2130 0 __close_nocancel
+PUBLIC 2148 0 __open
+PUBLIC 2160 0 close
+PUBLIC 2175 0 __commpage_gettimeofday
+PUBLIC 217c 0 __commpage_gettimeofday_internal
+PUBLIC 2210 0 voucher_mach_msg_set
+PUBLIC 2225 0 host_get_special_port
+PUBLIC 2332 0 host_create_mach_voucher
+PUBLIC 2385 0 voucher_mach_msg_clear
+PUBLIC 2398 0 task_info
+PUBLIC 2541 0 _kernelrpc_mach_vm_map
+PUBLIC 2698 0 mach_make_memory_entry_64
+PUBLIC 27cd 0 mach_timebase_info
+PUBLIC 2814 0 mach_approximate_time
+PUBLIC 282c 0 mig_get_special_reply_port
+PUBLIC 2856 0 mig_strncpy_zerofill
+PUBLIC 28c8 0 __shm_open
+PUBLIC 28dd 0 mmap
+PUBLIC 2980 0 __mmap
+PUBLIC 2998 0 __openat
+PUBLIC 29ad 0 fcntl
+PUBLIC 2a94 0 __fcntl
+PUBLIC 2aa9 0 csr_check
+PUBLIC 2acc 0 __csrctl
+PUBLIC 2ae1 0 mach_continuous_time
+PUBLIC 2aff 0 munmap
+PUBLIC 2b48 0 __munmap
+PUBLIC 2b60 0 __workq_kernreturn
+PUBLIC 2b78 0 __workq_open
+PUBLIC 2b90 0 kevent_qos
+PUBLIC 2ba5 0 mach_port_allocate
+PUBLIC 2be8 0 kevent_id
+PUBLIC 2bfd 0 mach_port_insert_right
+PUBLIC 2c40 0 __thread_selfid
+PUBLIC 2c58 0 __bsdthread_ctl
+PUBLIC 2c6d 0 mach_get_times
+PUBLIC 2d44 0 _mach_continuous_time_base
+PUBLIC 2d52 0 host_request_notification
+PUBLIC 2e3c 0 stat$INODE64
+PUBLIC 2e54 0 read
+PUBLIC 2e6c 0 fstatfs$INODE64
+PUBLIC 2e84 0 __getdirentries64
+PUBLIC 2e9c 0 __mac_syscall
+PUBLIC 2eb1 0 mach_port_request_notification
+PUBLIC 2eb6 0 _kernelrpc_mach_port_request_notification
+PUBLIC 2fdc 0 mach_voucher_extract_attr_recipe
+PUBLIC 301f 0 mach_voucher_deallocate
+PUBLIC 3034 0 mkdir
+PUBLIC 304c 0 __getattrlist
+PUBLIC 3064 0 readlink
+PUBLIC 307c 0 __lseek
+PUBLIC 3094 0 madvise
+PUBLIC 30a9 0 vm_deallocate
+PUBLIC 30ae 0 mach_vm_deallocate
+PUBLIC 3117 0 mach_vm_protect
+PUBLIC 3170 0 __bsdthread_create
+PUBLIC 3185 0 proc_setpcontrol
+PUBLIC 31d0 0 setpriority
+PUBLIC 3200 0 __setpriority
+PUBLIC 3215 0 vm_region_64
+PUBLIC 33e5 0 vm_region_recurse_64
+PUBLIC 35d1 0 mach_port_set_attributes
+PUBLIC 35d6 0 _kernelrpc_mach_port_set_attributes
+PUBLIC 3704 0 mach_port_insert_member
+PUBLIC 3744 0 voucher_mach_msg_revert
+PUBLIC 3757 0 voucher_mach_msg_adopt
+PUBLIC 3771 0 mach_port_extract_member
+PUBLIC 37b1 0 proc_set_dirty
+PUBLIC 37ec 0 getpriority
+PUBLIC 3801 0 getiopolicy_np
+PUBLIC 3860 0 __iopolicysys
+PUBLIC 3875 0 setiopolicy_np
+PUBLIC 38b0 0 proc_rlimit_control
+PUBLIC 38c5 0 proc_set_cpumon_params
+PUBLIC 3914 0 __process_policy
+PUBLIC 392c 0 getrusage
+PUBLIC 3944 0 __ulock_wait
+PUBLIC 395c 0 __ulock_wake
+PUBLIC 3974 0 lstat$INODE64
+PUBLIC 398c 0 __disable_threadsignal
+PUBLIC 39a1 0 mig_dealloc_reply_port
+PUBLIC 3a10 0 __bsdthread_terminate
+PUBLIC 3a28 0 statfs$INODE64
+PUBLIC 3a3d 0 vm_allocate
+PUBLIC 3a6c 0 vm_copy
+PUBLIC 3b50 0 fsgetpath
+PUBLIC 3b65 0 thread_destruct_special_reply_port
+PUBLIC 3baf 0 mach_port_destruct
+PUBLIC 3bf4 0 __exit
+PUBLIC 3c0c 0 getppid
+PUBLIC 3c21 0 mach_port_type
+PUBLIC 3c26 0 _kernelrpc_mach_port_type
+PUBLIC 3d1e 0 mig_reply_setup
+PUBLIC 3d54 0 mach_port_get_refs
+PUBLIC 3d59 0 _kernelrpc_mach_port_get_refs
+PUBLIC 3e54 0 csops_audittoken
+PUBLIC 3e6c 0 __psynch_mutexwait
+PUBLIC 3e84 0 __psynch_mutexdrop
+PUBLIC 3e9c 0 mach_msg_send
+PUBLIC 3ec6 0 mach_port_destroy
+PUBLIC 3ef1 0 mach_port_get_attributes
+PUBLIC 3f5c 0 __kdebug_trace64
+PUBLIC 3f74 0 getaudit_addr
+PUBLIC 3f89 0 vm_remap
+PUBLIC 4002 0 _kernelrpc_vm_remap
+PUBLIC 4147 0 vm_protect
+PUBLIC 414c 0 getxattr
+PUBLIC 4164 0 fstatat$INODE64
+PUBLIC 417c 0 getattrlistbulk
+PUBLIC 4194 0 pread
+PUBLIC 41ac 0 fgetxattr
+PUBLIC 41c4 0 ftruncate
+PUBLIC 41dc 0 flock
+PUBLIC 41f1 0 mig_deallocate
+PUBLIC 420c 0 getgid
+PUBLIC 4221 0 host_get_io_master
+PUBLIC 431a 0 mig_put_reply_port
+PUBLIC 431c 0 socket
+PUBLIC 4334 0 __socketpair
+PUBLIC 4349 0 setrlimit
+PUBLIC 4354 0 __setrlimit
+PUBLIC 436c 0 getsockopt
+PUBLIC 4381 0 select
+PUBLIC 43c4 0 __sendto
+PUBLIC 43dc 0 __recvfrom
+PUBLIC 43f1 0 task_threads
+PUBLIC 44fd 0 thread_get_state
+PUBLIC 46a9 0 proc_name
+PUBLIC 4734 0 bcopy
+PUBLIC 4742 0 strlen
+PUBLIC 474c 0 necp_open
+PUBLIC 4764 0 change_fdguard_np
+PUBLIC 477c 0 necp_client_action
+PUBLIC 4791 0 mach_port_guard
+PUBLIC 47d4 0 __psynch_cvwait
+PUBLIC 47ec 0 __psynch_cvbroad
+PUBLIC 4801 0 mach_msg_destroy
+PUBLIC 492c 0 mach_msg_destroy_port
+PUBLIC 4a10 0 listxattr
+PUBLIC 4a28 0 mkdirat
+PUBLIC 4a3d 0 chmod
+PUBLIC 4b20 0 __chmod
+PUBLIC 4b38 0 umask
+PUBLIC 4b4d 0 guarded_open_np
+PUBLIC 4bf0 0 __guarded_open_np
+PUBLIC 4c05 0 fcntl$NOCANCEL
+PUBLIC 4cec 0 __fcntl_nocancel
+PUBLIC 4d04 0 fchown
+PUBLIC 4d1c 0 guarded_pwrite_np
+PUBLIC 4d31 0 vm_purgable_control
+PUBLIC 4d36 0 mach_vm_purgable_control
+PUBLIC 4d79 0 semaphore_timedwait
+PUBLIC 4d85 0 semaphore_signal
+PUBLIC 4d8c 0 __gettimeofday_with_mach
+PUBLIC 4da1 0 __gettimeofday
+PUBLIC 4dcb 0 semaphore_destroy
+PUBLIC 4ea4 0 __semwait_signal
+PUBLIC 4ebc 0 write
+PUBLIC 4ed4 0 fsync
+PUBLIC 4eec 0 fsetxattr
+PUBLIC 4f04 0 chown
+PUBLIC 4f1c 0 removexattr
+PUBLIC 4f31 0 rename
+PUBLIC 4f50 0 __rename
+PUBLIC 4f65 0 __inc_remove_counter
+PUBLIC 4f70 0 setxattr
+PUBLIC 4f85 0 clock_get_time
+PUBLIC 5070 0 __semwait_signal_nocancel
+PUBLIC 5085 0 sigsuspend$NOCANCEL
+PUBLIC 5098 0 __sigsuspend_nocancel
+PUBLIC 50b0 0 setgid
+PUBLIC 50c8 0 setuid
+PUBLIC 50e0 0 __write_nocancel
+PUBLIC 50f5 0 unlink
+PUBLIC 5114 0 __unlink
+PUBLIC 512c 0 __bind
+PUBLIC 5144 0 __listen
+PUBLIC 515c 0 __accept
+PUBLIC 5171 0 mig_strncpy
+PUBLIC 51a7 0 thread_policy_get
+PUBLIC 5351 0 thread_policy_set
+PUBLIC 5377 0 _kernelrpc_thread_policy_set
+PUBLIC 5498 0 _pthread_clear_qos_tsd
+PUBLIC 54b4 0 __connect
+PUBLIC 54c9 0 __get_remove_counter
+PUBLIC 54d4 0 quotactl
+PUBLIC 54ec 0 __settid
+PUBLIC 5504 0 __syscall
+PUBLIC 551c 0 getfsstat$INODE64
+PUBLIC 5534 0 __psynch_cvsignal
+PUBLIC 554c 0 setsid
+PUBLIC 5564 0 dup2
+PUBLIC 5579 0 mach_port_move_member
+PUBLIC 55ba 0 mach_msg_overwrite
+PUBLIC 56c4 0 proc_pidpath
+PUBLIC 572c 0 writev
+PUBLIC 5741 0 task_policy_set
+PUBLIC 5862 0 mach_voucher_attr_command
+PUBLIC 5a64 0 __psynch_rw_rdlock
+PUBLIC 5a7c 0 __psynch_rw_wrlock
+PUBLIC 5a94 0 __psynch_rw_unlock
+PUBLIC 5aa9 0 semaphore_wait
+PUBLIC 5ab0 0 chdir
+PUBLIC 5ac8 0 seteuid
+PUBLIC 5ae0 0 setegid
+PUBLIC 5af8 0 fileport_makeport
+PUBLIC 5b0d 0 thread_info
+PUBLIC 5cb8 0 __pthread_sigmask
+PUBLIC 5ccd 0 rmdir
+PUBLIC 5cec 0 __rmdir
+PUBLIC 5d01 0 gethostuuid
+PUBLIC 5d4c 0 __gethostuuid
+PUBLIC 5d64 0 __pipe
+PUBLIC 5d80 0 posix_spawn_file_actions_init
+PUBLIC 5db2 0 malloc
+PUBLIC 5dbf 0 posix_spawn_file_actions_adddup2
+PUBLIC 5e58 0 dup
+PUBLIC 5e6d 0 _posix_spawn_file_actions_grow
+PUBLIC 5ec9 0 realloc
+PUBLIC 5ed9 0 posix_spawnattr_init
+PUBLIC 5f61 0 posix_spawnattr_setsigmask
+PUBLIC 5f7b 0 posix_spawnattr_setsigdefault
+PUBLIC 5f95 0 posix_spawnattr_setflags
+PUBLIC 5fb0 0 __pthread_fchdir
+PUBLIC 5fc8 0 __pthread_chdir
+PUBLIC 5fdd 0 posix_spawn
+PUBLIC 61e8 0 __posix_spawn
+PUBLIC 61fd 0 posix_spawnattr_destroy
+PUBLIC 6288 0 free
+PUBLIC 6295 0 posix_spawn_file_actions_destroy
+PUBLIC 62c8 0 __wait4
+PUBLIC 62e0 0 __ptrace
+PUBLIC 6302 0 vm_read
+PUBLIC 634e 0 _kernelrpc_vm_read
+PUBLIC 6470 0 __sem_open
+PUBLIC 6488 0 sem_close
+PUBLIC 649d 0 thread_policy
+PUBLIC 64c3 0 _kernelrpc_thread_policy
+PUBLIC 65fc 0 setsockopt
+PUBLIC 6614 0 __connect_nocancel
+PUBLIC 662c 0 __sendto_nocancel
+PUBLIC 6641 0 select$NOCANCEL
+PUBLIC 6664 0 __select_nocancel
+PUBLIC 667c 0 __recvfrom_nocancel
+PUBLIC 6694 0 __sendmsg_nocancel
+PUBLIC 66ac 0 shutdown
+PUBLIC 66c4 0 connectx
+PUBLIC 66dc 0 __sendmsg
+PUBLIC 66f4 0 __recvmsg
+PUBLIC 670c 0 guarded_close_np
+PUBLIC 6724 0 auditon
+PUBLIC 6739 0 sfi_set_class_offtime
+PUBLIC 6750 0 __sfi_ctl
+PUBLIC 6765 0 system_set_sfi_window
+PUBLIC 677c 0 __mac_set_proc
+PUBLIC 6791 0 fs_snapshot_list
+PUBLIC 67b7 0 thread_get_exception_ports
+PUBLIC 69f7 0 thread_set_exception_ports
+PUBLIC 6ae8 0 pwrite
+PUBLIC 6afd 0 unlinkat
+PUBLIC 6b1c 0 __unlinkat
+PUBLIC 6b34 0 __msync
+PUBLIC 6b4c 0 clonefileat
+PUBLIC 6b61 0 proc_get_cpumon_params
+PUBLIC 6bc4 0 mach_port_get_context
+PUBLIC 6be8 0 _kernelrpc_mach_port_get_context
+PUBLIC 6ce1 0 proc_disable_wakemon
+PUBLIC 6d0c 0 mlock
+PUBLIC 6d24 0 munlock
+PUBLIC 6d39 0 proc_set_wakemon_defaults
+PUBLIC 6d64 0 fileport_makefd
+PUBLIC 6d7c 0 __getsockname
+PUBLIC 6d91 0 proc_set_cpumon_defaults
+PUBLIC 6ddc 0 proc_pid_rusage
+PUBLIC 6df4 0 host_statistics64
+PUBLIC 6fa0 0 proc_listpids
+PUBLIC 6fce 0 mach_error_string
+PUBLIC 6fe5 0 mach_error_string_int
+PUBLIC 70b0 0 do_compat
+PUBLIC 713f 0 open_dprotected_np
+PUBLIC 71e8 0 __open_dprotected_np
+PUBLIC 71fd 0 thread_switch
+PUBLIC 7204 0 sigprocmask
+PUBLIC 721c 0 __sigaltstack
+PUBLIC 7234 0 __pthread_kill
+PUBLIC 7249 0 mach_vm_region
+PUBLIC 741c 0 __openat_nocancel
+PUBLIC 7431 0 pselect$DARWIN_EXTSN
+PUBLIC 7534 0 __pselect
+PUBLIC 7549 0 fchmod
+PUBLIC 762c 0 __fchmod
+PUBLIC 7644 0 symlink
+PUBLIC 765c 0 fsctl
+PUBLIC 7674 0 fgetattrlist
+PUBLIC 7689 0 clonefile
+PUBLIC 76a4 0 __fstat64_extended
+PUBLIC 76bc 0 __setattrlist
+PUBLIC 76d1 0 select$1050
+PUBLIC 76f4 0 kqueue
+PUBLIC 770c 0 kevent
+PUBLIC 7721 0 proc_denap_assertion_begin_with_msg
+PUBLIC 7729 0 proc_importance_assertion_begin_with_msg
+PUBLIC 77ca 0 proc_denap_assertion_complete
+PUBLIC 77cf 0 proc_importance_assertion_complete
+PUBLIC 7836 0 mach_port_extract_right
+PUBLIC 783b 0 _kernelrpc_mach_port_extract_right
+PUBLIC 7953 0 mach_ports_register
+PUBLIC 7a44 0 __fork
+PUBLIC 7a7b 0 task_set_exception_ports
+PUBLIC 7b6c 0 kill
+PUBLIC 7b78 0 __kill
+PUBLIC 7b90 0 getpgid
+PUBLIC 7ba8 0 getpgrp
+PUBLIC 7bbd 0 kdebug_signpost_start
+PUBLIC 7bc9 0 kdebug_signpost_internal
+PUBLIC 7c44 0 kdebug_signpost_end
+PUBLIC 7c50 0 audit_session_self
+PUBLIC 7c68 0 setitimer
+PUBLIC 7c7d 0 mach_right_send_release
+PUBLIC 7cf8 0 __psynch_cvclrprepost
+PUBLIC 7d10 0 chflags
+PUBLIC 7d25 0 host_statistics
+PUBLIC 7ece 0 terminate_with_reason
+PUBLIC 7ef0 0 __terminate_with_payload
+PUBLIC 7f05 0 task_set_info
+PUBLIC 804d 0 mach_voucher_extract_attr_content
+PUBLIC 81ec 0 guarded_kqueue_np
+PUBLIC 8201 0 _kernelrpc_mach_port_get_attributes
+PUBLIC 839a 0 mach_vm_region_recurse
+PUBLIC 8588 0 necp_match_policy
+PUBLIC 85a0 0 __select
+PUBLIC 85b5 0 mach_vm_read_overwrite
+PUBLIC 86b8 0 __getpeername
+PUBLIC 86d0 0 mach_msg_server_once
+PUBLIC 896e 0 proc_disable_cpumon
+PUBLIC 89b9 0 task_get_exception_ports
+PUBLIC 8bfc 0 audit_session_port
+PUBLIC 8c11 0 posix_spawnattr_setauditsessionport_np
+PUBLIC 8c44 0 posix_spawn_appendportaction_np
+PUBLIC 8d48 0 getdtablesize
+PUBLIC 8d60 0 __sigreturn
+PUBLIC 8d78 0 audit_session_join
+PUBLIC 8d90 0 __sigwait
+PUBLIC 8da8 0 setpgid
+PUBLIC 8dc0 0 lstat
+PUBLIC 8dd8 0 stat
+PUBLIC 8df0 0 fstatfs
+PUBLIC 8e05 0 mach_ports_lookup
+PUBLIC 8f11 0 posix_spawnattr_setcpumonitor_default
+PUBLIC 8f35 0 posix_spawnattr_setspecialport_np
+PUBLIC 8f5e 0 posix_spawn_file_actions_addopen
+PUBLIC 900d 0 strlcpy
+PUBLIC 901c 0 kevent64
+PUBLIC 9031 0 posix_spawnattr_setbinpref_np
+PUBLIC 9070 0 __setlogin
+PUBLIC 9088 0 __initgroups
+PUBLIC 90a0 0 __getlogin
+PUBLIC 90b5 0 mach_port_set_context
+PUBLIC 90ba 0 _kernelrpc_mach_port_set_context
+PUBLIC 9197 0 mach_port_get_set_status
+PUBLIC 919c 0 _kernelrpc_mach_port_get_set_status
+PUBLIC 92bc 0 __pthread_canceled
+PUBLIC 92d1 0 clock_sleep
+PUBLIC 92e4 0 poll
+PUBLIC 92f9 0 vm_map
+PUBLIC 9378 0 _kernelrpc_vm_map
+PUBLIC 94d0 0 __stat64_extended
+PUBLIC 94e8 0 __chmod_extended
+PUBLIC 9500 0 __lstat64_extended
+PUBLIC 9518 0 __fchmod_extended
+PUBLIC 9530 0 fchflags
+PUBLIC 9548 0 futimes
+PUBLIC 9560 0 utimes
+PUBLIC 9578 0 flistxattr
+PUBLIC 958e 0 mach_msg_receive
+PUBLIC 95bc 0 mount
+PUBLIC 95d4 0 __wait4_nocancel
+PUBLIC 95ec 0 getgroups
+PUBLIC 9604 0 __open_extended
+PUBLIC 961c 0 exchangedata
+PUBLIC 9631 0 __carbon_delete
+PUBLIC 9650 0 __delete
+PUBLIC 9668 0 unmount
+PUBLIC 967d 0 posix_spawn_file_actions_addinherit_np
+PUBLIC 96f9 0 posix_spawn_file_actions_addclose
+PUBLIC 9776 0 posix_spawnattr_setexceptionports_np
+PUBLIC 97aa 0 reallocf
+PUBLIC 97e8 0 bzero
+PUBLIC 97f5 0 _libkernel_strlen
+PUBLIC 989c 0 _libkernel_strchr
+PUBLIC 98bc 0 _libkernel_bzero
+PUBLIC 98c9 0 _libkernel_memset
+PUBLIC 9966 0 _libkernel_memmove
+PUBLIC 9ad1 0 _libkernel_strcpy
+PUBLIC 9afd 0 _libkernel_strlcpy
+PUBLIC 9b5b 0 mach_host_special_port_description
+PUBLIC 9b72 0 mach_task_special_port_description
+PUBLIC 9b89 0 mach_host_special_port_for_id
+PUBLIC 9b9a 0 port_for_id_internal
+PUBLIC 9bfe 0 mach_task_special_port_for_id
+PUBLIC 9c0f 0 pkt_subtype_assert_fail
+PUBLIC 9c29 0 pkt_type_assert_fail
+PUBLIC 9c43 0 os_packet_set_link_header_offset
+PUBLIC 9c7f 0 os_packet_get_link_header_offset
+PUBLIC 9cad 0 os_packet_set_link_broadcast
+PUBLIC 9cdd 0 os_packet_get_link_broadcast
+PUBLIC 9d0e 0 os_packet_set_link_multicast
+PUBLIC 9d3e 0 os_packet_get_link_multicast
+PUBLIC 9d71 0 os_packet_set_link_ethfcs
+PUBLIC 9da1 0 os_packet_get_link_ethfcs
+PUBLIC 9dd5 0 os_packet_set_network_header_offset
+PUBLIC 9e11 0 os_packet_get_network_header_offset
+PUBLIC 9e3f 0 os_packet_set_transport_header_offset
+PUBLIC 9e7b 0 os_packet_get_transport_header_offset
+PUBLIC 9ea9 0 os_packet_set_transport_traffic_background
+PUBLIC 9ed9 0 os_packet_get_transport_traffic_background
+PUBLIC 9f0c 0 os_packet_set_transport_traffic_realtime
+PUBLIC 9f3c 0 os_packet_get_transport_traffic_realtime
+PUBLIC 9f6f 0 os_packet_set_transport_retransmit
+PUBLIC 9f9f 0 os_packet_get_transport_retransmit
+PUBLIC 9fd2 0 os_packet_set_transport_last_packet
+PUBLIC a002 0 os_packet_set_service_class
+PUBLIC a0ab 0 os_packet_get_service_class
+PUBLIC a14d 0 os_packet_set_traffic_class
+PUBLIC a1ce 0 os_packet_get_traffic_class
+PUBLIC a27d 0 os_packet_set_inet_checksum
+PUBLIC a2b7 0 os_packet_get_inet_checksum
+PUBLIC a2ff 0 os_packet_get_flow_uuid
+PUBLIC a33f 0 os_packet_set_flow_uuid
+PUBLIC a388 0 os_packet_clear_flow_uuid
+PUBLIC a393 0 os_packet_get_data_length
+PUBLIC a39b 0 os_packet_get_buflet_count
+PUBLIC a3dc 0 os_packet_get_next_buflet
+PUBLIC a472 0 os_packet_finalize
+PUBLIC a67a 0 os_inet_checksum
+PUBLIC a67f 0 os_copy_and_inet_checksum
+PUBLIC a6a6 0 os_buflet_get_data_offset
+PUBLIC a6ab 0 os_buflet_get_data_length
+PUBLIC a6b0 0 os_buflet_set_data_offset
+PUBLIC a6cb 0 os_buflet_set_data_length
+PUBLIC a6e6 0 os_buflet_get_object_address
+PUBLIC a6ea 0 os_buflet_get_data_limit
+PUBLIC a6ef 0 clock_set_time
+PUBLIC a7c9 0 clock_set_attributes
+PUBLIC a8ea 0 clock_alarm_reply
+PUBLIC a949 0 clock_get_attributes
+PUBLIC aabf 0 clock_alarm
+PUBLIC abad 0 exception_raise
+PUBLIC ace4 0 exception_raise_state
+PUBLIC af02 0 exception_raise_state_identity
+PUBLIC b14c 0 exc_server_routine
+PUBLIC b16f 0 _Xexception_raise
+PUBLIC b210 0 _Xexception_raise_state
+PUBLIC b310 0 _Xexception_raise_state_identity
+PUBLIC b457 0 exc_server
+PUBLIC b4c4 0 host_get_boot_info
+PUBLIC b613 0 host_reboot
+PUBLIC b6ec 0 host_priv_statistics
+PUBLIC b895 0 host_default_memory_manager
+PUBLIC b9b3 0 vm_wire
+PUBLIC baa6 0 thread_wire
+PUBLIC bb90 0 vm_allocate_cpm
+PUBLIC bca6 0 host_processors
+PUBLIC bdb2 0 host_get_clock_control
+PUBLIC bebc 0 kmod_create
+PUBLIC bfb5 0 kmod_destroy
+PUBLIC c08e 0 kmod_control
+PUBLIC c1cc 0 host_set_special_port
+PUBLIC c2b6 0 host_set_exception_ports
+PUBLIC c3a7 0 host_get_exception_ports
+PUBLIC c5e7 0 host_swap_exception_ports
+PUBLIC c84d 0 mach_vm_wire
+PUBLIC c940 0 host_processor_sets
+PUBLIC ca4c 0 host_processor_set_priv
+PUBLIC cb56 0 host_set_UNDServer
+PUBLIC cc2f 0 host_get_UNDServer
+PUBLIC cd28 0 kext_request
+PUBLIC ce8c 0 host_security_create_task_token
+PUBLIC cff6 0 host_security_set_task_token
+PUBLIC d108 0 lock_acquire
+PUBLIC d1e1 0 lock_release
+PUBLIC d2ba 0 lock_try
+PUBLIC d393 0 lock_make_stable
+PUBLIC d46c 0 lock_handoff
+PUBLIC d545 0 lock_handoff_accept
+PUBLIC d61e 0 host_kernel_version
+PUBLIC d76d 0 _host_page_size
+PUBLIC d855 0 mach_memory_object_memory_entry
+PUBLIC d978 0 host_processor_info
+PUBLIC daa6 0 kmod_get_info
+PUBLIC dbb2 0 host_virtual_physical_table_info
+PUBLIC dcc1 0 processor_set_default
+PUBLIC ddba 0 processor_set_create
+PUBLIC decd 0 mach_memory_object_memory_entry_64
+PUBLIC dff0 0 host_lockgroup_info
+PUBLIC e107 0 mach_zone_info
+PUBLIC e252 0 mach_zone_force_gc
+PUBLIC e31a 0 _kernelrpc_host_create_mach_voucher
+PUBLIC e48d 0 host_register_mach_voucher_attr_manager
+PUBLIC e5b6 0 host_register_well_known_mach_voucher_attr_manager
+PUBLIC e6d5 0 host_set_atm_diagnostic_flag
+PUBLIC e7ae 0 mach_memory_info
+PUBLIC e94e 0 host_set_multiuser_config_flags
+PUBLIC ea27 0 mach_zone_info_for_zone
+PUBLIC eb6d 0 mach_zone_info_for_largest_zone
+PUBLIC ecd5 0 mach_zone_get_zlog_zones
+PUBLIC edee 0 mach_zone_get_btlog_records
+PUBLIC ef29 0 _kernelrpc_mach_port_names
+PUBLIC f06a 0 _kernelrpc_mach_port_rename
+PUBLIC f146 0 _kernelrpc_mach_port_allocate_name
+PUBLIC f222 0 _kernelrpc_mach_port_allocate
+PUBLIC f31a 0 _kernelrpc_mach_port_destroy
+PUBLIC f3f3 0 _kernelrpc_mach_port_deallocate
+PUBLIC f4cc 0 _kernelrpc_mach_port_mod_refs
+PUBLIC f5ab 0 _kernelrpc_mach_port_peek
+PUBLIC f770 0 _kernelrpc_mach_port_set_mscount
+PUBLIC f84c 0 _kernelrpc_mach_port_move_member
+PUBLIC f928 0 _kernelrpc_mach_port_insert_right
+PUBLIC fa17 0 _kernelrpc_mach_port_set_seqno
+PUBLIC faf3 0 _kernelrpc_mach_port_allocate_qos
+PUBLIC fc00 0 _kernelrpc_mach_port_allocate_full
+PUBLIC fd24 0 _kernelrpc_task_set_port_space
+PUBLIC fdfd 0 _kernelrpc_mach_port_get_srights
+PUBLIC fef5 0 _kernelrpc_mach_port_space_info
+PUBLIC 1008b 0 _kernelrpc_mach_port_dnrequest_info
+PUBLIC 10190 0 _kernelrpc_mach_port_kernel_object
+PUBLIC 10295 0 _kernelrpc_mach_port_insert_member
+PUBLIC 10371 0 _kernelrpc_mach_port_extract_member
+PUBLIC 1044d 0 _kernelrpc_mach_port_kobject
+PUBLIC 10553 0 _kernelrpc_mach_port_construct
+PUBLIC 10665 0 _kernelrpc_mach_port_destruct
+PUBLIC 10745 0 _kernelrpc_mach_port_guard
+PUBLIC 10825 0 _kernelrpc_mach_port_unguard
+PUBLIC 10902 0 _kernelrpc_mach_port_space_basic_info
+PUBLIC 109fa 0 _kernelrpc_mach_port_special_reply_port_reset_link
+PUBLIC 10af2 0 _kernelrpc_mach_vm_allocate
+PUBLIC 10bf6 0 _kernelrpc_mach_vm_deallocate
+PUBLIC 10cd4 0 _kernelrpc_mach_vm_protect
+PUBLIC 10db9 0 mach_vm_inherit
+PUBLIC 10e9a 0 _kernelrpc_mach_vm_read
+PUBLIC 10fbc 0 mach_vm_read_list
+PUBLIC 1110b 0 mach_vm_write
+PUBLIC 111fd 0 mach_vm_copy
+PUBLIC 112df 0 mach_vm_msync
+PUBLIC 113c0 0 mach_vm_behavior_set
+PUBLIC 114a1 0 mach_vm_machine_attribute
+PUBLIC 115a7 0 _kernelrpc_mach_vm_remap
+PUBLIC 116ec 0 mach_vm_page_query
+PUBLIC 117f2 0 mach_make_memory_entry
+PUBLIC 11927 0 _kernelrpc_mach_vm_purgable_control
+PUBLIC 11a29 0 mach_vm_page_info
+PUBLIC 11bd6 0 mach_vm_page_range_query
+PUBLIC 11cdf 0 mach_notify_port_deleted
+PUBLIC 11d3b 0 mach_notify_port_destroyed
+PUBLIC 11d8c 0 mach_notify_no_senders
+PUBLIC 11de8 0 mach_notify_send_once
+PUBLIC 11e33 0 mach_notify_dead_name
+PUBLIC 11e8f 0 processor_set_statistics
+PUBLIC 1200a 0 processor_set_destroy
+PUBLIC 120d2 0 processor_set_max_priority
+PUBLIC 121ae 0 processor_set_policy_enable
+PUBLIC 12287 0 processor_set_policy_disable
+PUBLIC 12363 0 processor_set_tasks
+PUBLIC 1246f 0 processor_set_threads
+PUBLIC 1257b 0 processor_set_policy_control
+PUBLIC 126b3 0 processor_set_stack_usage
+PUBLIC 127f0 0 processor_set_info
+PUBLIC 1297d 0 processor_start
+PUBLIC 12a45 0 processor_exit
+PUBLIC 12b0d 0 processor_info
+PUBLIC 12caf 0 processor_control
+PUBLIC 12dc7 0 processor_assign
+PUBLIC 12eb1 0 processor_get_assignment
+PUBLIC 12faa 0 netname_check_in
+PUBLIC 130ec 0 netname_look_up
+PUBLIC 13297 0 netname_check_out
+PUBLIC 133d2 0 netname_version
+PUBLIC 1350b 0 task_create
+PUBLIC 1362d 0 task_terminate
+PUBLIC 136f5 0 task_suspend
+PUBLIC 137bd 0 task_resume
+PUBLIC 13885 0 thread_create
+PUBLIC 1397e 0 thread_create_running
+PUBLIC 13b03 0 task_swap_exception_ports
+PUBLIC 13d69 0 lock_set_create
+PUBLIC 13e76 0 lock_set_destroy
+PUBLIC 13f4f 0 task_policy_get
+PUBLIC 140f9 0 task_sample
+PUBLIC 141d2 0 task_policy
+PUBLIC 14315 0 task_set_emulation
+PUBLIC 143f2 0 task_get_emulation_vector
+PUBLIC 1450f 0 task_set_emulation_vector
+PUBLIC 14607 0 task_set_ras_pc
+PUBLIC 146e5 0 task_zone_info
+PUBLIC 1483a 0 task_assign
+PUBLIC 14924 0 task_assign_default
+PUBLIC 149fd 0 task_get_assignment
+PUBLIC 14af6 0 task_set_policy
+PUBLIC 14c82 0 task_get_state
+PUBLIC 14e2e 0 task_set_state
+PUBLIC 14f79 0 task_set_phys_footprint_limit
+PUBLIC 15071 0 task_suspend2
+PUBLIC 1516a 0 task_resume2
+PUBLIC 15232 0 task_purgable_info
+PUBLIC 1534b 0 task_get_mach_voucher
+PUBLIC 15455 0 task_set_mach_voucher
+PUBLIC 1552e 0 task_swap_mach_voucher
+PUBLIC 15642 0 task_generate_corpse
+PUBLIC 1573b 0 task_map_corpse_info
+PUBLIC 15841 0 task_register_dyld_image_infos
+PUBLIC 15939 0 task_unregister_dyld_image_infos
+PUBLIC 15a31 0 task_get_dyld_image_infos
+PUBLIC 15b4a 0 task_register_dyld_shared_cache_image_info
+PUBLIC 15c4e 0 task_register_dyld_set_dyld_state
+PUBLIC 15d28 0 task_register_dyld_get_process_state
+PUBLIC 15e29 0 task_map_corpse_info_64
+PUBLIC 15f30 0 task_inspect
+PUBLIC 160ab 0 reboot
+PUBLIC 160b2 0 reboot_np
+PUBLIC 160b7 0 thread_terminate
+PUBLIC 1617f 0 act_get_state
+PUBLIC 1632b 0 act_set_state
+PUBLIC 16476 0 thread_set_state
+PUBLIC 165c1 0 thread_suspend
+PUBLIC 16689 0 thread_resume
+PUBLIC 16751 0 thread_abort
+PUBLIC 16819 0 thread_abort_safely
+PUBLIC 168e1 0 thread_depress_abort
+PUBLIC 169a9 0 thread_get_special_port
+PUBLIC 16ab3 0 thread_set_special_port
+PUBLIC 16b9d 0 thread_swap_exception_ports
+PUBLIC 16e03 0 thread_sample
+PUBLIC 16edc 0 etap_trace_thread
+PUBLIC 16fb5 0 thread_assign
+PUBLIC 1708e 0 thread_assign_default
+PUBLIC 17156 0 thread_get_assignment
+PUBLIC 1724f 0 _kernelrpc_thread_set_policy
+PUBLIC 173bf 0 thread_get_mach_voucher
+PUBLIC 174c9 0 thread_set_mach_voucher
+PUBLIC 175a2 0 thread_swap_mach_voucher
+PUBLIC 176b6 0 _mach_continuous_time
+PUBLIC 1771d 0 mach_continuous_approximate_time
+PUBLIC 17747 0 vm_inherit
+PUBLIC 17828 0 vm_read_list
+PUBLIC 17977 0 vm_write
+PUBLIC 17a69 0 vm_read_overwrite
+PUBLIC 17b6b 0 vm_msync
+PUBLIC 17c4c 0 vm_behavior_set
+PUBLIC 17d2d 0 vm_machine_attribute
+PUBLIC 17e33 0 vm_map_page_query
+PUBLIC 17f39 0 _kernelrpc_vm_purgable_control
+PUBLIC 1803b 0 renameat
+PUBLIC 1805a 0 internal_catch_exception_raise_state_identity
+PUBLIC 180d1 0 abort
+PUBLIC 180f2 0 internal_catch_exception_raise_state
+PUBLIC 18169 0 abort
+PUBLIC 1818a 0 internal_catch_exception_raise
+PUBLIC 18201 0 abort
+PUBLIC 18222 0 fprintf_stderr
+PUBLIC 182e8 0 guarded_open_dprotected_np
+PUBLIC 1837f 0 host_get_atm_diagnostic_flag
+PUBLIC 18390 0 host_get_multiuser_config_flags
+PUBLIC 18396 0 host_check_multiuser_mode
+PUBLIC 1839c 0 mach_error_type
+PUBLIC 1840c 0 err_sparse_mapit
+PUBLIC 1847f 0 mach_error
+PUBLIC 18502 0 host_page_size
+PUBLIC 1850f 0 _mach_fork_child
+PUBLIC 1851e 0 mach_msg_server
+PUBLIC 1885a 0 mach_msg_server_importance
+PUBLIC 1885f 0 mig_allocate
+PUBLIC 18896 0 quota
+PUBLIC 188ac 0 setquota
+PUBLIC 188c2 0 panic_init
+PUBLIC 188c9 0 panic
+PUBLIC 18919 0 abort
+PUBLIC 1893a 0 port_obj_init
+PUBLIC 18976 0 semaphore_signal_all
+PUBLIC 1897b 0 semaphore_signal_thread
+PUBLIC 18980 0 semaphore_wait_signal
+PUBLIC 18985 0 semaphore_timedwait_signal
+PUBLIC 18991 0 msg_rpc
+PUBLIC 18997 0 msg_send
+PUBLIC 1899d 0 msg_receive
+PUBLIC 189a3 0 task_self_
+PUBLIC 189ad 0 host_self
+PUBLIC 189b2 0 _mach_vsnprintf
+PUBLIC 18b55 0 _mach_snprintf
+PUBLIC 18bc5 0 pselect$DARWIN_EXTSN$NOCANCEL
+PUBLIC 18cc8 0 mach_task_self
+PUBLIC 18ccd 0 mach_right_recv_construct
+PUBLIC 18d64 0 mach_right_recv_destruct
+PUBLIC 18dc8 0 mach_right_send_create
+PUBLIC 18e0d 0 mach_right_send_retain
+PUBLIC 18e5c 0 mach_right_send_once_create
+PUBLIC 18eb0 0 mach_right_send_once_consume
+PUBLIC 18f2c 0 proc_listallpids
+PUBLIC 18f64 0 proc_listpgrppids
+PUBLIC 18f9c 0 proc_listchildpids
+PUBLIC 18fd4 0 proc_pidoriginatorinfo
+PUBLIC 19015 0 proc_listcoalitions
+PUBLIC 19043 0 proc_setthread_cpupercent
+PUBLIC 19083 0 proc_pidfdinfo
+PUBLIC 190a8 0 proc_pidfileportinfo
+PUBLIC 190cc 0 proc_piddynkqueueinfo
+PUBLIC 190f4 0 proc_udata_info
+PUBLIC 1910d 0 proc_regionfilename
+PUBLIC 19175 0 proc_kmsgbuf
+PUBLIC 191a3 0 proc_libversion
+PUBLIC 191bc 0 proc_get_dirty
+PUBLIC 1920a 0 proc_clear_dirty
+PUBLIC 19242 0 proc_terminate
+PUBLIC 1928d 0 proc_resume_cpumon
+PUBLIC 192c4 0 proc_set_cpumon_params_fatal
+PUBLIC 193dc 0 proc_set_wakemon_params
+PUBLIC 19401 0 proc_get_wakemon_params
+PUBLIC 19440 0 proc_list_uptrs
+PUBLIC 1945c 0 proc_list_dynkqueueids
+PUBLIC 19478 0 proc_setcpu_percentage
+PUBLIC 194cd 0 proc_reset_footprint_interval
+PUBLIC 194dc 0 proc_clear_cpulimits
+PUBLIC 19522 0 proc_donate_importance_boost
+PUBLIC 1956a 0 proc_clear_vmpressure
+PUBLIC 195b0 0 proc_set_owner_vmpressure
+PUBLIC 195eb 0 proc_set_delayidlesleep
+PUBLIC 19629 0 proc_clear_delayidlesleep
+PUBLIC 19664 0 proc_disable_apptype
+PUBLIC 196b4 0 proc_enable_apptype
+PUBLIC 19704 0 proc_suppress
+PUBLIC 19707 0 _getprivatesystemidentifier
+PUBLIC 19711 0 _register_gethostuuid_callback
+PUBLIC 19727 0 mach_boottime_usec
+PUBLIC 19735 0 futimens
+PUBLIC 197f7 0 prepare_times_array_and_attrs
+PUBLIC 198e1 0 utimensat
+PUBLIC 199bc 0 thread_set_policy
+PUBLIC 199e8 0 thread_get_register_pointer_values
+PUBLIC 19c7d 0 renameatx_np
+PUBLIC 19c9c 0 renamex_np
+PUBLIC 19cd0 0 rename_ext
+PUBLIC 19cd5 0 posix_spawnattr_getflags
+PUBLIC 19cf0 0 posix_spawnattr_getsigdefault
+PUBLIC 19d0a 0 posix_spawnattr_getpgroup
+PUBLIC 19d24 0 posix_spawnattr_getsigmask
+PUBLIC 19d3e 0 posix_spawnattr_getbinpref_np
+PUBLIC 19d7a 0 posix_spawnattr_getpcontrol_np
+PUBLIC 19d94 0 posix_spawnattr_getprocesstype_np
+PUBLIC 19dae 0 posix_spawnattr_setpgroup
+PUBLIC 19dc6 0 posix_spawnattr_setpcontrol_np
+PUBLIC 19dde 0 posix_spawnattr_setprocesstype_np
+PUBLIC 19df6 0 posix_spawnattr_setcpumonitor
+PUBLIC 19e13 0 posix_spawnattr_getcpumonitor
+PUBLIC 19e36 0 posix_spawnattr_setjetsam_ext
+PUBLIC 19e5f 0 posix_spawnattr_set_threadlimit_ext
+PUBLIC 19e77 0 posix_spawnattr_set_importancewatch_port_np
+PUBLIC 19ef3 0 posix_spawnattr_getmacpolicyinfo_np
+PUBLIC 19f54 0 posix_spawnattr_macpolicyinfo_lookup
+PUBLIC 19fb9 0 posix_spawnattr_setmacpolicyinfo_np
+PUBLIC 1a0f4 0 posix_spawnattr_setcoalition_np
+PUBLIC 1a17d 0 posix_spawnattr_set_qos_clamp_np
+PUBLIC 1a19c 0 posix_spawnattr_get_qos_clamp_np
+PUBLIC 1a1b8 0 posix_spawnattr_set_darwin_role_np
+PUBLIC 1a1d1 0 posix_spawnattr_get_darwin_role_np
+PUBLIC 1a1ed 0 posix_spawnattr_set_persona_np
+PUBLIC 1a259 0 posix_spawnattr_set_persona_uid_np
+PUBLIC 1a28e 0 posix_spawnattr_set_persona_gid_np
+PUBLIC 1a2c3 0 posix_spawnattr_set_persona_groups_np
+PUBLIC 1a323 0 posix_spawnattr_set_max_addr_np
+PUBLIC 1a33c 0 stackshot_config_create
+PUBLIC 1a369 0 stackshot_config_set_pid
+PUBLIC 1a379 0 stackshot_config_set_flags
+PUBLIC 1a38a 0 stackshot_capture_with_config
+PUBLIC 1a3e8 0 stackshot_config_get_stackshot_buffer
+PUBLIC 1a3f5 0 stackshot_config_get_stackshot_size
+PUBLIC 1a40a 0 stackshot_config_set_size_hint
+PUBLIC 1a422 0 stackshot_config_set_delta_timestamp
+PUBLIC 1a43b 0 stackshot_config_dealloc_buffer
+PUBLIC 1a487 0 stackshot_config_dealloc
+PUBLIC 1a4d4 0 terminate_with_payload
+PUBLIC 1a4d9 0 abort_with_reason
+PUBLIC 1a4ef 0 abort_with_payload_wrapper_internal
+PUBLIC 1a56a 0 abort_with_payload
+PUBLIC 1a573 0 system_get_sfi_window
+PUBLIC 1a587 0 sfi_get_class_offtime
+PUBLIC 1a59d 0 sfi_process_set_flags
+PUBLIC 1a5b1 0 sfi_process_get_flags
+PUBLIC 1a5c8 0 os_channel_create_extended
+PUBLIC 1aa9d 0 os_channel_info2attr
+PUBLIC 1abb1 0 os_channel_init_ring
+PUBLIC 1ad15 0 os_channel_create
+PUBLIC 1ad24 0 os_channel_get_fd
+PUBLIC 1ad27 0 os_channel_read_attr
+PUBLIC 1ad66 0 os_channel_write_attr
+PUBLIC 1ae0f 0 os_channel_read_nexus_extension_info
+PUBLIC 1ae31 0 os_channel_sync
+PUBLIC 1ae52 0 os_channel_destroy
+PUBLIC 1ae8f 0 os_channel_is_defunct
+PUBLIC 1ae9d 0 os_channel_ring_id
+PUBLIC 1aeec 0 os_channel_tx_ring
+PUBLIC 1af1d 0 os_channel_rx_ring
+PUBLIC 1af5c 0 os_channel_pending
+PUBLIC 1af6b 0 os_channel_ring_sync_time
+PUBLIC 1af74 0 os_channel_ring_notify_time
+PUBLIC 1af7d 0 os_channel_available_slot_count
+PUBLIC 1afb7 0 os_channel_advance_slot
+PUBLIC 1b006 0 os_channel_get_next_slot
+PUBLIC 1b204 0 os_channel_set_slot_properties
+PUBLIC 1b2f8 0 os_channel_slot_get_packet
+PUBLIC 1b3f6 0 os_channel_get_stats_region
+PUBLIC 1b472 0 os_channel_get_advisory_region
+PUBLIC 1b477 0 os_channel_flow_admissible
+PUBLIC 1b5ad 0 os_channel_attr_create
+PUBLIC 1b5dc 0 os_channel_attr_clone
+PUBLIC 1b647 0 os_channel_attr_set_key
+PUBLIC 1b705 0 os_channel_attr_destroy
+PUBLIC 1b732 0 os_channel_attr_set
+PUBLIC 1b82c 0 os_channel_attr_get
+PUBLIC 1b964 0 os_channel_attr_get_key
+PUBLIC 1b9b5 0 os_channel_packet_alloc
+PUBLIC 1bb79 0 os_channel_packet_free
+PUBLIC 1bccb 0 os_channel_slot_attach_packet
+PUBLIC 1bde9 0 os_channel_slot_detach_packet
+PUBLIC 1bf24 0 os_channel_packet_pool_purge
+PUBLIC 1c170 0 sem_destroy
+PUBLIC 1c186 0 sem_getvalue
+PUBLIC 1c19c 0 sem_init
+PUBLIC 1c1b2 0 pid_shutdown_networking
+PUBLIC 1c1b7 0 coalition_create
+PUBLIC 1c1cb 0 coalition_terminate
+PUBLIC 1c1ee 0 coalition_reap
+PUBLIC 1c211 0 coalition_info_resource_usage
+PUBLIC 1c240 0 coalition_info_set_name
+PUBLIC 1c26f 0 coalition_info_set_efficiency
+PUBLIC 1c2a3 0 csr_get_active_config
+PUBLIC 1c2b8 0 fs_snapshot_create
+PUBLIC 1c2d1 0 fs_snapshot_delete
+PUBLIC 1c2ea 0 fs_snapshot_rename
+PUBLIC 1c304 0 fs_snapshot_revert
+PUBLIC 1c31d 0 fs_snapshot_root
+PUBLIC 1c336 0 fs_snapshot_mount
+PUBLIC 1c34d 0 pselect
+PUBLIC 1c493 0 kdebug_trace_string
+PUBLIC 1c4f6 0 kdebug_signpost
+PUBLIC 1c4fe 0 pselect$1050
+PUBLIC 1c627 0 pselect$NOCANCEL
+PUBLIC 1c750 0 os_nexus_attr_create
+PUBLIC 1c77f 0 os_nexus_attr_clone
+PUBLIC 1c7b3 0 os_nexus_attr_set
+PUBLIC 1c890 0 os_nexus_attr_get
+PUBLIC 1c984 0 os_nexus_attr_destroy
+PUBLIC 1c989 0 os_nexus_controller_create
+PUBLIC 1ca09 0 os_nexus_controller_get_fd
+PUBLIC 1ca0c 0 os_nexus_controller_register_provider
+PUBLIC 1cc04 0 os_nexus_controller_deregister_provider
+PUBLIC 1cc10 0 os_nexus_controller_alloc_provider_instance
+PUBLIC 1cc28 0 os_nexus_controller_free_provider_instance
+PUBLIC 1cc34 0 os_nexus_controller_bind_provider_instance
+PUBLIC 1ccef 0 os_nexus_controller_unbind_provider_instance
+PUBLIC 1cd4e 0 os_nexus_controller_read_provider_attr
+PUBLIC 1ce8b 0 os_nexus_controller_destroy
+PUBLIC 1ceb2 0 __os_nexus_ifattach
+PUBLIC 1cfa9 0 __os_nexus_ifdetach
+PUBLIC 1d045 0 __os_nexus_nsbind
+PUBLIC 1d0b2 0 __os_nexus_nsunbind
+PUBLIC 1d11f 0 __os_nexus_connect
+PUBLIC 1d18c 0 __os_nexus_disconnect
+PUBLIC 1d1f9 0 sigsuspend
+PUBLIC 1d20c 0 _kernelrpc_mach_voucher_extract_attr_recipe
+PUBLIC 1d3a8 0 mach_voucher_extract_all_attr_recipes
+PUBLIC 1d541 0 mach_voucher_debug_info
+PUBLIC 1d6dd 0 work_interval_create
+PUBLIC 1d785 0 work_interval_notify
+PUBLIC 1d7e2 0 work_interval_notify_simple
+PUBLIC 1d81d 0 work_interval_instance_alloc
+PUBLIC 1d85e 0 work_interval_instance_clear
+PUBLIC 1d875 0 work_interval_instance_free
+PUBLIC 1d87a 0 work_interval_instance_set_start
+PUBLIC 1d87f 0 work_interval_instance_set_deadline
+PUBLIC 1d884 0 work_interval_instance_set_finish
+PUBLIC 1d889 0 work_interval_instance_set_complexity
+PUBLIC 1d88e 0 work_interval_instance_get_start
+PUBLIC 1d89d 0 work_interval_instance_get_deadline
+PUBLIC 1d8ac 0 work_interval_instance_get_finish
+PUBLIC 1d8bb 0 work_interval_instance_get_complexity
+PUBLIC 1d8ca 0 work_interval_instance_get_id
+PUBLIC 1d8cf 0 work_interval_instance_start
+PUBLIC 1d902 0 work_interval_instance_update
+PUBLIC 1d93f 0 work_interval_instance_finish
+PUBLIC 1d998 0 work_interval_destroy
+PUBLIC 1da26 0 work_interval_join
+PUBLIC 1da5c 0 work_interval_join_port
+PUBLIC 1da86 0 work_interval_leave
+PUBLIC 1da96 0 work_interval_copy_port
+PUBLIC 1db00 0 os_cpu_copy_in_cksum
+PUBLIC 1dfee 0 os_cpu_in_cksum
+PUBLIC 1e095 0 os_cpu_in_cksum_mbuf
+PUBLIC 1e3b2 0 proc_listpidspath
+PUBLIC 1eb04 0 mach_port_names
+PUBLIC 1eb09 0 mach_port_rename
+PUBLIC 1eb0e 0 mach_port_allocate_name
+PUBLIC 1eb13 0 mach_port_peek
+PUBLIC 1eb18 0 mach_port_set_mscount
+PUBLIC 1eb1d 0 mach_port_set_seqno
+PUBLIC 1eb22 0 mach_port_allocate_qos
+PUBLIC 1eb27 0 mach_port_allocate_full
+PUBLIC 1eb2c 0 task_set_port_space
+PUBLIC 1eb31 0 mach_port_get_srights
+PUBLIC 1eb36 0 mach_port_space_info
+PUBLIC 1eb3b 0 mach_port_space_basic_info
+PUBLIC 1eb40 0 mig_dealloc_special_reply_port
+PUBLIC 1eb9d 0 mach_sync_ipc_link_monitoring_start
+PUBLIC 1ec38 0 mach_sync_ipc_link_monitoring_stop
+PUBLIC 1ec97 0 mach_port_dnrequest_info
+PUBLIC 1ec9c 0 mach_port_kernel_object
+PUBLIC 1eca1 0 mach_port_kobject
+PUBLIC 1eca6 0 mach_port_unguard
+PUBLIC 1ece6 0 mach_vm_remap
+PUBLIC 1ed5f 0 mach_vm_read
+PUBLIC 1edab 0 getaudit
+PUBLIC 1edf1 0 setaudit
+PUBLIC 1ee55 0 kpersona_alloc
+PUBLIC 1ee86 0 kpersona_dealloc
+PUBLIC 1eeb3 0 kpersona_get
+PUBLIC 1ef00 0 kpersona_info
+PUBLIC 1ef31 0 kpersona_pidinfo
+PUBLIC 1ef62 0 kpersona_find
+PUBLIC 1efe4 0 ____old_semwait_signal_nocancel
+PUBLIC 1effc 0 ____sigwait_nocancel
+PUBLIC 1f014 0 __abort_with_payload
+PUBLIC 1f02c 0 __accept_nocancel
+PUBLIC 1f044 0 __access_extended
+PUBLIC 1f05c 0 __aio_suspend_nocancel
+PUBLIC 1f074 0 __channel_get_info
+PUBLIC 1f08c 0 __channel_get_opt
+PUBLIC 1f0a4 0 __channel_open
+PUBLIC 1f0bc 0 __channel_set_opt
+PUBLIC 1f0d4 0 __channel_sync
+PUBLIC 1f0ec 0 __coalition
+PUBLIC 1f104 0 __coalition_info
+PUBLIC 1f11c 0 __copyfile
+PUBLIC 1f134 0 __fs_snapshot
+PUBLIC 1f14c 0 __fstat_extended
+PUBLIC 1f164 0 __fsync_nocancel
+PUBLIC 1f17c 0 __getsgroups
+PUBLIC 1f194 0 __getwgroups
+PUBLIC 1f1ac 0 __guarded_open_dprotected_np
+PUBLIC 1f1c4 0 __identitysvc
+PUBLIC 1f1dc 0 __kdebug_trace
+PUBLIC 1f1f4 0 __kdebug_trace_string
+PUBLIC 1f20c 0 __kqueue_workloop_ctl
+PUBLIC 1f224 0 __lchown
+PUBLIC 1f23c 0 __lstat_extended
+PUBLIC 1f254 0 __mac_execve
+PUBLIC 1f26c 0 __mac_get_fd
+PUBLIC 1f284 0 __mac_get_file
+PUBLIC 1f29c 0 __mac_get_link
+PUBLIC 1f2b4 0 __mac_get_mount
+PUBLIC 1f2cc 0 __mac_get_pid
+PUBLIC 1f2e4 0 __mac_get_proc
+PUBLIC 1f2fc 0 __mac_getfsstat
+PUBLIC 1f314 0 __mac_mount
+PUBLIC 1f32c 0 __mac_set_fd
+PUBLIC 1f344 0 __mac_set_file
+PUBLIC 1f35c 0 __mac_set_link
+PUBLIC 1f374 0 __mach_bridge_remote_time
+PUBLIC 1f38c 0 __microstackshot
+PUBLIC 1f3a4 0 __mkdir_extended
+PUBLIC 1f3bc 0 __mkfifo_extended
+PUBLIC 1f3d4 0 __msgctl
+PUBLIC 1f3ec 0 __msgrcv_nocancel
+PUBLIC 1f404 0 __msgsnd_nocancel
+PUBLIC 1f41c 0 __msgsys
+PUBLIC 1f434 0 __msync_nocancel
+PUBLIC 1f44c 0 __nexus_create
+PUBLIC 1f464 0 __nexus_deregister
+PUBLIC 1f47c 0 __nexus_destroy
+PUBLIC 1f494 0 __nexus_get_opt
+PUBLIC 1f4ac 0 __nexus_open
+PUBLIC 1f4c4 0 __nexus_register
+PUBLIC 1f4dc 0 __nexus_set_opt
+PUBLIC 1f4f4 0 __old_semwait_signal
+PUBLIC 1f50c 0 __persona
+PUBLIC 1f524 0 __poll_nocancel
+PUBLIC 1f53c 0 __pread_nocancel
+PUBLIC 1f554 0 __pselect_nocancel
+PUBLIC 1f56c 0 __psynch_rw_downgrade
+PUBLIC 1f584 0 __psynch_rw_longrdlock
+PUBLIC 1f59c 0 __psynch_rw_unlock2
+PUBLIC 1f5b4 0 __psynch_rw_upgrade
+PUBLIC 1f5cc 0 __psynch_rw_yieldwrlock
+PUBLIC 1f5e4 0 __pthread_markcancel
+PUBLIC 1f5fc 0 __pwrite_nocancel
+PUBLIC 1f614 0 __readv_nocancel
+PUBLIC 1f62c 0 __reboot
+PUBLIC 1f644 0 __recvmsg_nocancel
+PUBLIC 1f65c 0 __renameat
+PUBLIC 1f674 0 __renameatx_np
+PUBLIC 1f68c 0 __sem_wait_nocancel
+PUBLIC 1f6a4 0 __semctl
+PUBLIC 1f6bc 0 __semsys
+PUBLIC 1f6d4 0 __setregid
+PUBLIC 1f6ec 0 __setreuid
+PUBLIC 1f704 0 __setsgroups
+PUBLIC 1f71c 0 __settid_with_pid
+PUBLIC 1f734 0 __settimeofday
+PUBLIC 1f74c 0 __setwgroups
+PUBLIC 1f764 0 __sfi_pidctl
+PUBLIC 1f77c 0 __shared_region_check_np
+PUBLIC 1f794 0 __shared_region_map_and_slide_np
+PUBLIC 1f7ac 0 __shmctl
+PUBLIC 1f7c4 0 __shmsys
+PUBLIC 1f7dc 0 __sigsuspend
+PUBLIC 1f7f4 0 __stack_snapshot_with_config
+PUBLIC 1f80c 0 __stat_extended
+PUBLIC 1f824 0 __telemetry
+PUBLIC 1f83c 0 __thread_selfusage
+PUBLIC 1f854 0 __umask_extended
+PUBLIC 1f86c 0 __vfork
+PUBLIC 1f8c4 0 __waitid_nocancel
+PUBLIC 1f8dc 0 __work_interval_ctl
+PUBLIC 1f8f4 0 __writev_nocancel
+PUBLIC 1f90c 0 acct
+PUBLIC 1f924 0 adjtime
+PUBLIC 1f93c 0 aio_cancel
+PUBLIC 1f954 0 aio_error
+PUBLIC 1f96c 0 aio_fsync
+PUBLIC 1f984 0 aio_read
+PUBLIC 1f99c 0 aio_return
+PUBLIC 1f9b4 0 aio_suspend
+PUBLIC 1f9cc 0 aio_write
+PUBLIC 1f9e4 0 audit
+PUBLIC 1f9fc 0 auditctl
+PUBLIC 1fa14 0 chroot
+PUBLIC 1fa2c 0 disconnectx
+PUBLIC 1fa44 0 execve
+PUBLIC 1fa5c 0 faccessat
+PUBLIC 1fa74 0 fchdir
+PUBLIC 1fa8c 0 fchmodat
+PUBLIC 1faa4 0 fchownat
+PUBLIC 1fabc 0 fclonefileat
+PUBLIC 1fad4 0 fdatasync
+PUBLIC 1faec 0 ffsctl
+PUBLIC 1fb04 0 fhopen
+PUBLIC 1fb1c 0 fmount
+PUBLIC 1fb34 0 fpathconf
+PUBLIC 1fb4c 0 fremovexattr
+PUBLIC 1fb64 0 fsetattrlist
+PUBLIC 1fb7c 0 fstat
+PUBLIC 1fb94 0 fstatat
+PUBLIC 1fbac 0 getattrlistat
+PUBLIC 1fbc4 0 getauid
+PUBLIC 1fbdc 0 getdirentries
+PUBLIC 1fbf4 0 getdirentriesattr
+PUBLIC 1fc0c 0 getfh
+PUBLIC 1fc24 0 getfsstat
+PUBLIC 1fc3c 0 getitimer
+PUBLIC 1fc54 0 getsid
+PUBLIC 1fc6c 0 grab_pgo_data
+PUBLIC 1fc84 0 guarded_write_np
+PUBLIC 1fc9c 0 guarded_writev_np
+PUBLIC 1fcb4 0 kas_info
+PUBLIC 1fccc 0 ledger
+PUBLIC 1fce4 0 link
+PUBLIC 1fcfc 0 linkat
+PUBLIC 1fd14 0 lio_listio
+PUBLIC 1fd2c 0 memorystatus_control
+PUBLIC 1fd44 0 memorystatus_get_level
+PUBLIC 1fd5c 0 mincore
+PUBLIC 1fd74 0 minherit
+PUBLIC 1fd8c 0 mkfifo
+PUBLIC 1fda4 0 mknod
+PUBLIC 1fdbc 0 mlockall
+PUBLIC 1fdd4 0 modwatch
+PUBLIC 1fdec 0 mremap_encrypted
+PUBLIC 1fe04 0 msgget
+PUBLIC 1fe1c 0 msgrcv
+PUBLIC 1fe34 0 msgsnd
+PUBLIC 1fe4c 0 munlockall
+PUBLIC 1fe64 0 necp_session_action
+PUBLIC 1fe7c 0 necp_session_open
+PUBLIC 1fe94 0 net_qos_guideline
+PUBLIC 1feac 0 netagent_trigger
+PUBLIC 1fec4 0 nfsclnt
+PUBLIC 1fedc 0 nfssvc
+PUBLIC 1fef4 0 ntp_adjtime
+PUBLIC 1ff0c 0 ntp_gettime
+PUBLIC 1ff24 0 openbyid_np
+PUBLIC 1ff3c 0 os_fault_with_payload
+PUBLIC 1ff54 0 pathconf
+PUBLIC 1ff6c 0 peeloff
+PUBLIC 1ff84 0 pid_hibernate
+PUBLIC 1ff9c 0 pid_resume
+PUBLIC 1ffb4 0 pid_shutdown_sockets
+PUBLIC 1ffcc 0 pid_suspend
+PUBLIC 1ffe4 0 proc_trace_log
+PUBLIC 1fffc 0 proc_uuid_policy
+PUBLIC 20014 0 readlinkat
+PUBLIC 2002c 0 readv
+PUBLIC 20044 0 recvmsg_x
+PUBLIC 2005c 0 revoke
+PUBLIC 20074 0 searchfs
+PUBLIC 2008c 0 sem_post
+PUBLIC 200a4 0 sem_trywait
+PUBLIC 200bc 0 sem_unlink
+PUBLIC 200d4 0 sem_wait
+PUBLIC 200ec 0 semget
+PUBLIC 20104 0 semop
+PUBLIC 2011c 0 sendfile
+PUBLIC 20134 0 sendmsg_x
+PUBLIC 2014c 0 setattrlistat
+PUBLIC 20164 0 setaudit_addr
+PUBLIC 2017c 0 setauid
+PUBLIC 20194 0 setgroups
+PUBLIC 201ac 0 setprivexec
+PUBLIC 201c4 0 shm_unlink
+PUBLIC 201dc 0 shmat
+PUBLIC 201f4 0 shmdt
+PUBLIC 2020c 0 shmget
+PUBLIC 20224 0 sigpending
+PUBLIC 2023c 0 socket_delegate
+PUBLIC 20254 0 statfs
+PUBLIC 2026c 0 swapon
+PUBLIC 20284 0 symlinkat
+PUBLIC 2029c 0 sync
+PUBLIC 202b4 0 system_override
+PUBLIC 202cc 0 thread_selfcounts
+PUBLIC 202e4 0 truncate
+PUBLIC 202fc 0 undelete
+PUBLIC 20314 0 usrctl
+PUBLIC 2032c 0 vfs_purge
+PUBLIC 20344 0 vm_pressure_monitor
+PUBLIC 2035c 0 waitevent
+PUBLIC 20374 0 waitid
+PUBLIC 2038c 0 watchevent
+PUBLIC 203a4 0 i386_get_ldt
+PUBLIC 203b8 0 i386_set_ldt
+PUBLIC 203cc 0 _thread_set_tsd_base
+PUBLIC 203e0 0 _libkernel_voucher_functions_empty
+PUBLIC 20410 0 ___kernelVersionString
+PUBLIC 20448 0 ___kernelVersionNumber
+PUBLIC 20470 0 err_us_sub
+PUBLIC 204a0 0 err_iokit_sub_map
+PUBLIC 204b0 0 err_codes_iokit_common_map
+PUBLIC 204c0 0 err_codes_iokit_usb_map
+PUBLIC 204f0 0 err_codes_iokit_fw_map
+PUBLIC 20540 0 times_now
+PUBLIC 205a0 0 __kernelVersionString
+PUBLIC 205d8 0 __kernelVersionNumber
+PUBLIC 255b0 0 hex
+PUBLIC 29010 0 _libkernel_generic_string_functions
+PUBLIC 290a0 0 mach_host_special_port_description.hsp_descs
+PUBLIC 29190 0 mach_task_special_port_description.tsp_descs
+PUBLIC 291f0 0 internal_catch_exc_subsystem
+PUBLIC 29290 0 err_os_sub
+PUBLIC 29330 0 err_server_sub
+PUBLIC 295b0 0 err_ipc_sub
+PUBLIC 29630 0 err_mach_ipc_sub
+PUBLIC 296b0 0 err_libkern_sub
+PUBLIC 29730 0 err_iokit_sub
+PUBLIC 29910 0 _mach_errors
+PUBLIC 2a310 0 err_codes_kern
+PUBLIC 2a4c0 0 err_codes_unix
+PUBLIC 2a6f0 0 err_codes_netname
+PUBLIC 2a710 0 err_codes_env_mgr
+PUBLIC 2a750 0 err_codes_execd
+PUBLIC 2a770 0 err_codes_netmemory
+PUBLIC 2a788 0 err_codes_ufs
+PUBLIC 2a790 0 err_codes_task_master
+PUBLIC 2a7c0 0 err_codes_ns
+PUBLIC 2a850 0 err_codes_io
+PUBLIC 2a880 0 err_codes_auth
+PUBLIC 2a8d0 0 err_codes_us
+PUBLIC 2a990 0 err_codes_sunrpc
+PUBLIC 2aa20 0 err_codes_machobj
+PUBLIC 2aa50 0 err_codes_loader
+PUBLIC 2aa80 0 err_codes_exception
+PUBLIC 2aac0 0 err_codes_ux_signal
+PUBLIC 2abb0 0 err_codes_xkernel
+PUBLIC 2ac20 0 err_codes_send
+PUBLIC 2ac80 0 err_codes_rcv
+PUBLIC 2acd0 0 err_codes_mig
+PUBLIC 2ad10 0 err_codes_mach_send
+PUBLIC 2adc0 0 err_codes_mach_rcv
+PUBLIC 2ae50 0 err_codes_mach_mig
+PUBLIC 2aea0 0 err_codes_libkern_common
+PUBLIC 2aeb0 0 err_codes_libkern_metaclass
+PUBLIC 2af10 0 err_codes_libkern_kext
+PUBLIC 2aff0 0 err_codes_iokit_common
+PUBLIC 2b1a0 0 err_codes_iokit_usb
+PUBLIC 2b280 0 err_codes_iokit_fw
+PUBLIC 2b3c0 0 err_codes_iokit_bluetooth
+PUBLIC 2b3f0 0 _libkernel_string_functions
+PUBLIC 2b3f8 0 _libkernel_voucher_functions
+PUBLIC 2b400 0 mach_host_special_port_for_id.hsp_ids
+PUBLIC 2b4f0 0 mach_task_special_port_for_id.tsp_ids
+PUBLIC 2b550 0 internal_catch_exception_raise_state_identity.exc_raise_state_identity_func
+PUBLIC 2b558 0 internal_catch_exception_raise_state.exc_raise_state_func
+PUBLIC 2b560 0 internal_catch_exception_raise.exc_raise_func
+PUBLIC 2b568 0 NDR_record
+PUBLIC 2b570 0 port_obj_table_size
+PUBLIC 2b578 0 important_boost_assertion_token
+PUBLIC 2b580 0 normal_boost_assertion_token
+PUBLIC 2b588 0 non_boost_assertion_token
+PUBLIC 2b590 0 denap_boost_assertion_token
+PUBLIC 2b598 0 kpersona_get.p_id
+PUBLIC 2b59c 0 _current_pid
+PUBLIC 2b5a0 0 gCRAnnotations
+PUBLIC 2b5e0 0 _libkernel_functions
+PUBLIC 2b5e8 0 _dlsym
+PUBLIC 2b5f0 0 _os_xbs_chrooted
+PUBLIC 2b5f8 0 vprintf_stderr_func
+PUBLIC 2b600 0 mach_error_full_diag
+PUBLIC 2b608 0 bootstrap_port
+PUBLIC 2b60c 0 mach_task_self_
+PUBLIC 2b610 0 vm_kernel_page_size
+PUBLIC 2b618 0 vm_kernel_page_mask
+PUBLIC 2b620 0 vm_kernel_page_shift
+PUBLIC 2b628 0 vm_page_size
+PUBLIC 2b630 0 vm_page_mask
+PUBLIC 2b638 0 vm_page_shift
+PUBLIC 2b63c 0 _task_reply_port
+PUBLIC 2b640 0 port_obj_table
+PUBLIC 2b648 0 errno
+PUBLIC 2b64c 0 _cpu_has_altivec
+PUBLIC 2b650 0 _cpu_capabilities
+PUBLIC 2b658 0 __syscall_logger
+PUBLIC 2b660 0 _os_alloc_once_table
+PUBLIC 2bca0 0 mach_init.mach_init_inited
+PUBLIC 2bca4 0 master_host_port
+PUBLIC 2bca8 0 _gethostuuid_callback
+PUBLIC 2bcb0 0 __os_ch_md_redzone_cookie
+PUBLIC 2bcb8 0 mach_timebase_info.cached_info
+PUBLIC 2bcc0 0 kdebug_typefilter.typefilter
+PUBLIC 2bcc8 0 __remove_counter
+STACK CFI INIT 5db2 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 6288 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 5ec9 10 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 13aa d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1332 1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 5498 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 14b7 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 97e8 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 177a d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1333 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 900d d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 4742 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1bcd a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2210 15 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2385 13 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3757 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3744 13 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 97f5 a7 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 989c 20 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1340 2a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 98bc d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 98c9 9d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9966 16b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 4734 e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9b5b 17 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9b72 17 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9b89 11 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9bfe 11 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9c0f 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9c29 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9c43 3c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9c7f 2e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9cad 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9cdd 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9d0e 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9d3e 33 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9d71 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9da1 34 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9dd5 3c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9e11 2e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9e3f 3c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9e7b 2e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9ea9 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9ed9 33 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9f0c 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9f3c 33 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9f6f 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9f9f 33 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9fd2 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a002 a9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a0ab a2 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a14d 81 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a1ce af .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a27d 3a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a2b7 48 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a2ff 40 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a33f 49 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a388 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a393 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a39b 41 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a3dc 96 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a67a 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a6a6 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a6ab 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a6b0 1b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a6cb 1b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a6e6 4 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a6ea 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 7689 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT b14c 23 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 160ab 7 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 160b2 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2d44 e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 92d1 12 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1837f 11 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18390 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18396 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 70b0 8f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18502 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1885a 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 301f 12 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 41f1 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2175 7 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3d1e 36 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 431a 1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 5171 36 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 71fd 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 188c2 7 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 4d85 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18976 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1897b 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 5aa9 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 4d79 c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18980 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18985 c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18991 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18997 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1899d 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 189a3 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 189ad 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 14c1 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18cc8 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 17b2 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1ac9 18 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 13b7 25 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 6ddc 18 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 190f4 19 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 191a3 19 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19440 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1945c 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 194cd f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 7721 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 77ca 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19704 3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2814 18 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19707 a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19711 16 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19727 e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19cd0 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 5f95 18 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19cd5 1b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19cf0 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19d0a 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19d24 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19d3e 3c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19d7a 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19d94 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 5f7b 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19dae 18 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 5f61 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9031 3c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19dc6 18 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19dde 18 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 8f11 24 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19df6 1d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19e13 23 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19e36 29 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19e5f 18 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a17d 1f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a19c 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a1b8 19 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a1d1 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a259 35 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a28e 35 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a2c3 60 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a323 19 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a369 10 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a379 11 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a3e8 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a3f5 15 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a40a 18 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a422 19 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a4d4 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 20c5 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 6765 14 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a573 14 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 6739 16 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a587 16 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a59d 14 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a5b1 16 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1abb1 164 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1ad15 f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1ad24 3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1ae0f 22 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1ae31 21 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1ae8f e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1ae9d 3d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1aeec 31 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1af1d 3f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1af5c f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1af6b 9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1af74 9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1af7d 3a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1afb7 4f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1b204 f4 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1b2f8 fe .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1b3f6 7c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1b472 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1b477 136 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1b732 8c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1b82c c9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1bccb 11e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1bde9 13b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 7b6c a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c1b2 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c1b7 14 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c2a3 15 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c2b8 19 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c2d1 19 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c2ea 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c304 19 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c31d 19 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c336 17 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c4f6 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 7bbd c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 7c44 c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 4349 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 5085 13 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c7b3 93 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c890 ab .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c984 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1ca09 3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1cc04 c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1cc10 18 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1cc28 c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1d1f9 13 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1d85e 17 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1d875 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1d87a 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1d87f 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1d884 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1d889 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1d88e f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1d89d f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1d8ac f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1d8bb f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1d8ca 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1da86 10 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 54c9 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 4f65 9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1eb04 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3c21 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1eb09 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1eb0e 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3d54 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1eb13 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1eb18 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 9197 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2eb1 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 7836 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1eb1d 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 35d1 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1eb22 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1eb27 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1eb2c 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1eb31 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1eb36 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1eb3b 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3b65 4a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1ec97 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1ec9c 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 90b5 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1eca1 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 30a9 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 4147 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 4d31 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^

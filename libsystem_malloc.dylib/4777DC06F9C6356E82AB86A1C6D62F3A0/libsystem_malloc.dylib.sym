@@ -1,0 +1,657 @@
+MODULE mac x86_64 4777DC06F9C6356E82AB86A1C6D62F3A0 libsystem_malloc.dylib
+PUBLIC 11e0 0 __malloc_init
+PUBLIC 141e 0 nano_common_init
+PUBLIC 1629 0 malloc_common_value_for_key
+PUBLIC 1696 0 malloc_common_value_for_key_copy
+PUBLIC 16f8 0 mvm_aslr_init
+PUBLIC 176b 0 malloc
+PUBLIC 17a0 0 malloc_zone_malloc
+PUBLIC 1858 0 default_zone_malloc
+PUBLIC 18a7 0 _malloc_initialize
+PUBLIC 20e4 0 malloc_print_configure
+PUBLIC 21bb 0 nano_common_configure
+PUBLIC 22aa 0 create_scalable_zone
+PUBLIC 22af 0 create_scalable_szone
+PUBLIC 2508 0 mvm_allocate_pages
+PUBLIC 2703 0 rack_init
+PUBLIC 288d 0 mvm_protect
+PUBLIC 294a 0 malloc_zone_register_while_locked
+PUBLIC 2ad0 0 malloc_set_zone_name
+PUBLIC 2b63 0 szone_malloc
+PUBLIC 2b6a 0 szone_malloc_should_clear
+PUBLIC 2c60 0 tiny_malloc_should_clear
+PUBLIC 32e7 0 tiny_malloc_from_free_list
+PUBLIC 37ff 0 mvm_allocate_pages_securely
+PUBLIC 39ce 0 rack_region_insert
+PUBLIC 3b7b 0 set_tiny_meta_header_in_use
+PUBLIC 3c9c 0 calloc
+PUBLIC 3cd7 0 malloc_zone_calloc
+PUBLIC 3d8f 0 default_zone_calloc
+PUBLIC 3de6 0 szone_calloc
+PUBLIC 3e24 0 malloc_default_zone
+PUBLIC 3e2c 0 malloc_zone_from_ptr
+PUBLIC 3f08 0 szone_size
+PUBLIC 3f77 0 tiny_size
+PUBLIC 412f 0 free
+PUBLIC 42fe 0 default_zone_free_definite_size
+PUBLIC 4353 0 szone_free_definite_size
+PUBLIC 444e 0 free_tiny
+PUBLIC 4749 0 tiny_free_no_lock
+PUBLIC 5116 0 tiny_free_list_add_ptr
+PUBLIC 52ad 0 small_malloc_should_clear
+PUBLIC 59bb 0 small_malloc_from_free_list
+PUBLIC 5c36 0 small_size
+PUBLIC 5d22 0 free_small
+PUBLIC 65e1 0 small_free_list_add_ptr
+PUBLIC 6878 0 small_free_list_find_by_ptr
+PUBLIC 6933 0 small_free_list_remove_ptr
+PUBLIC 69dc 0 small_free_list_remove_ptr_no_clear
+PUBLIC 6ee3 0 tiny_free_list_remove_ptr
+PUBLIC 7133 0 realloc
+PUBLIC 728d 0 malloc_zone_realloc
+PUBLIC 734d 0 default_zone_realloc
+PUBLIC 73a4 0 szone_realloc
+PUBLIC 766c 0 szone_good_size
+PUBLIC 76d3 0 tiny_try_realloc_in_place
+PUBLIC 7b38 0 szone_free
+PUBLIC 7d07 0 __stack_logging_early_finished
+PUBLIC 7d1e 0 malloc_zone_memalign
+PUBLIC 7dfe 0 default_zone_memalign
+PUBLIC 7e53 0 szone_memalign
+PUBLIC 7f29 0 small_memalign
+PUBLIC 8275 0 malloc_engaged_nano
+PUBLIC 827c 0 malloc_zone_free
+PUBLIC 8306 0 default_zone_free
+PUBLIC 8355 0 malloc_good_size
+PUBLIC 8372 0 default_zone_good_size
+PUBLIC 83c5 0 malloc_size
+PUBLIC 8485 0 large_malloc
+PUBLIC 899d 0 large_entries_grow_no_lock
+PUBLIC 8b3d 0 szone_size_try_large
+PUBLIC 8bb4 0 large_entry_for_pointer_no_lock
+PUBLIC 8c0b 0 free_large
+PUBLIC 90f7 0 large_entry_free_no_lock
+PUBLIC 92ad 0 small_try_realloc_in_place
+PUBLIC 95df 0 valloc
+PUBLIC 9615 0 malloc_zone_valloc
+PUBLIC 96cf 0 default_zone_valloc
+PUBLIC 971f 0 szone_valloc
+PUBLIC 9760 0 malloc_zone_statistics
+PUBLIC 97fd 0 szone_statistics
+PUBLIC 98db 0 posix_memalign
+PUBLIC 9924 0 tiny_memalign
+PUBLIC 9c47 0 reallocarray$DARWIN_EXTSN
+PUBLIC 9c6a 0 large_try_realloc_in_place
+PUBLIC 9ddd 0 tiny_try_shrink_in_place
+PUBLIC 9f24 0 malloc_zone_batch_malloc
+PUBLIC 9ff3 0 default_zone_batch_malloc
+PUBLIC a057 0 szone_batch_malloc
+PUBLIC a067 0 tiny_batch_malloc
+PUBLIC a150 0 malloc_memory_event_handler
+PUBLIC a40b 0 malloc_report
+PUBLIC a4c1 0 malloc_vreport
+PUBLIC a6e5 0 turn_on_stack_logging
+PUBLIC a974 0 __uniquing_table_memory_was_deleted
+PUBLIC a97c 0 __prepare_to_log_stacks
+PUBLIC ac64 0 __prepare_to_log_stacks_stage2
+PUBLIC ad0d 0 reap_orphaned_log_files
+PUBLIC add9 0 reap_orphaned_log_files_in_hierarchy
+PUBLIC b175 0 __disk_stack_logging_log_stack
+PUBLIC b75a 0 __enter_stack_into_table_while_locked
+PUBLIC bb8b 0 radix_tree_create
+PUBLIC bbf3 0 radix_tree_size
+PUBLIC bbff 0 radix_tree_insert
+PUBLIC c093 0 radix_tree_delete
+PUBLIC c1b7 0 radix_tree_lookup_recursive
+PUBLIC c3c0 0 radix_tree_allocate_node
+PUBLIC c506 0 fixnode
+PUBLIC c56a 0 getenv_from_process
+PUBLIC c74c 0 create_and_insert_lite_zone_while_locked
+PUBLIC c791 0 create_stack_logging_lite_zone
+PUBLIC c846 0 stack_logging_lite_malloc
+PUBLIC c8ef 0 enable_stack_logging_lite
+PUBLIC c8f7 0 stack_logging_lite_calloc
+PUBLIC c99b 0 add_stack_to_ptr
+PUBLIC ca4c 0 __malloc_lock_stack_logging
+PUBLIC ca87 0 __malloc_unlock_stack_logging
+PUBLIC cab3 0 stack_logging_lite_free
+PUBLIC cafa 0 __decrement_table_slot_refcount
+PUBLIC cc1e 0 is_stack_logging_lite_enabled
+PUBLIC cc26 0 stack_logging_lite_size
+PUBLIC cc5a 0 stack_logging_lite_free_definite_size
+PUBLIC cc5f 0 stack_logging_lite_memalign
+PUBLIC ccc7 0 stack_logging_lite_realloc
+PUBLIC cdc1 0 radix_tree_delete_recursive
+PUBLIC ceed 0 mvm_deallocate_pages
+PUBLIC cf50 0 malloc_create_zone
+PUBLIC cfb2 0 malloc_zone_register
+PUBLIC d014 0 delete_log_files
+PUBLIC d06c 0 malloc_default_purgeable_zone
+PUBLIC d20e 0 create_purgeable_zone
+PUBLIC d3ee 0 purgeable_malloc
+PUBLIC d405 0 purgeable_valloc
+PUBLIC d41d 0 malloc_make_purgeable
+PUBLIC d454 0 find_registered_purgeable_zone
+PUBLIC d55c 0 purgeable_size
+PUBLIC d564 0 malloc_make_nonpurgeable
+PUBLIC d5b7 0 purgeable_free
+PUBLIC d65a 0 tiny_finalize_region
+PUBLIC d831 0 tiny_free_detach_region
+PUBLIC d98a 0 tiny_free_reattach_region
+PUBLIC db03 0 tiny_free_scan_madvise_free
+PUBLIC ddd6 0 mvm_madvise_free
+PUBLIC de6e 0 tiny_free_try_depot_unmap_no_lock
+PUBLIC dfdf 0 nanov2_malloc
+PUBLIC e068 0 nanov2_allocate
+PUBLIC e294 0 nanov2_find_block_and_allocate
+PUBLIC e820 0 nanov2_allocate_from_block
+PUBLIC ea93 0 nanov2_size
+PUBLIC eac5 0 nanov2_pointer_size
+PUBLIC ec63 0 nanov2_free_definite_size
+PUBLIC ecea 0 nanov2_free_to_block
+PUBLIC ef2c 0 nanov2_calloc
+PUBLIC efae 0 nanov2_realloc
+PUBLIC f11e 0 nanov2_free
+PUBLIC f1ba 0 nanov2_madvise_block
+PUBLIC f2eb 0 nanov2_memalign
+PUBLIC f2f9 0 nanov2_good_size
+PUBLIC f32b 0 nanov2_valloc
+PUBLIC f338 0 purgeable_calloc
+PUBLIC f381 0 nanov2_batch_malloc
+PUBLIC f421 0 small_try_shrink_in_place
+PUBLIC f594 0 nanov2_init
+PUBLIC fb25 0 nanov2_configure
+PUBLIC fb4b 0 nanov2_configure_once
+PUBLIC fc2c 0 nanov2_create_zone
+PUBLIC feb7 0 nano_common_allocate_based_pages
+PUBLIC ff82 0 nanov2_allocate_region
+PUBLIC ffdc 0 nano_common_allocate_vm_space
+PUBLIC 1006a 0 _malloc_fork_prepare
+PUBLIC 100cc 0 szone_force_lock
+PUBLIC 102f1 0 __stack_logging_fork_prepare
+PUBLIC 10317 0 _malloc_fork_parent
+PUBLIC 1037a 0 __stack_logging_fork_parent
+PUBLIC 1039d 0 szone_force_unlock
+PUBLIC 10475 0 small_finalize_region
+PUBLIC 10573 0 small_free_detach_region
+PUBLIC 10624 0 small_free_reattach_region
+PUBLIC 106b5 0 small_free_scan_madvise_free
+PUBLIC 108b7 0 small_free_try_depot_unmap_no_lock
+PUBLIC 10a26 0 nano_malloc
+PUBLIC 10a67 0 _nano_malloc_check_clear
+PUBLIC 10f4b 0 nano_size
+PUBLIC 10f6a 0 nano_free_definite_size
+PUBLIC 1100a 0 nano_calloc
+PUBLIC 1107a 0 nano_free
+PUBLIC 11115 0 nano_realloc
+PUBLIC 11463 0 _nano_malloc_check_scribble
+PUBLIC 114bc 0 nano_memalign
+PUBLIC 114c9 0 nano_good_size
+PUBLIC 114f9 0 nano_valloc
+PUBLIC 11506 0 nano_batch_malloc
+PUBLIC 11587 0 radix_tree_lookup
+PUBLIC 115ce 0 radix_tree_panic
+PUBLIC 11667 0 radix_tree_init
+PUBLIC 1169f 0 radix_tree_destory
+PUBLIC 116be 0 radix_tree_count
+PUBLIC 116c7 0 radix_tree_count_recursive
+PUBLIC 11738 0 bitarray_size
+PUBLIC 1176c 0 bitarray_create
+PUBLIC 117aa 0 bitarray_get
+PUBLIC 117f5 0 bitarray_set
+PUBLIC 119c4 0 bitarray_zap
+PUBLIC 11bf4 0 bitarray_first_set
+PUBLIC 11e50 0 bitarray_zap_first_set
+PUBLIC 122ec 0 bitarray_zap_first_set_multiple
+PUBLIC 12784 0 FFS_and_zap_word
+PUBLIC 127eb 0 malloc_common_strstr
+PUBLIC 1282f 0 malloc_common_convert_to_long
+PUBLIC 12868 0 purgeable_realloc
+PUBLIC 129de 0 purgeable_destroy
+PUBLIC 12a94 0 purgeable_batch_malloc
+PUBLIC 12aa0 0 purgeable_batch_free
+PUBLIC 12aac 0 purgeable_memalign
+PUBLIC 12ac3 0 purgeable_free_definite_size
+PUBLIC 12ada 0 purgeable_pressure_relief
+PUBLIC 12b0f 0 purgeable_claimed_address
+PUBLIC 12b1b 0 purgeable_ptr_in_use_enumerator
+PUBLIC 12b91 0 purgeable_good_size
+PUBLIC 12ba8 0 purgeable_check
+PUBLIC 12bae 0 purgeable_print
+PUBLIC 12bd8 0 purgeable_log
+PUBLIC 12be0 0 purgeable_force_lock
+PUBLIC 12c06 0 purgeable_force_unlock
+PUBLIC 12c27 0 purgeable_statistics
+PUBLIC 12c43 0 purgeable_locked
+PUBLIC 12c87 0 purgeable_reinit_lock
+PUBLIC 12c92 0 _szone_default_reader
+PUBLIC 12c98 0 large_entries_free_no_lock
+PUBLIC 12cbb 0 large_in_use_enumerator
+PUBLIC 12e47 0 large_try_shrink_in_place
+PUBLIC 12f78 0 large_claimed_address
+PUBLIC 1304b 0 szone_batch_free
+PUBLIC 1309d 0 szone_claimed_address
+PUBLIC 130f8 0 scalable_zone_info
+PUBLIC 1325c 0 szone_pressure_relief
+PUBLIC 13c17 0 scalable_zone_statistics
+PUBLIC 13d68 0 szone_ptr_in_use_enumerator
+PUBLIC 13e16 0 szone_check
+PUBLIC 13e8f 0 szone_print
+PUBLIC 140dc 0 szone_log
+PUBLIC 140e7 0 szone_locked
+PUBLIC 14221 0 szone_reinit_lock
+PUBLIC 142a0 0 szone_destroy
+PUBLIC 144df 0 _szone_default_reader
+PUBLIC 144e5 0 szone_check_all
+PUBLIC 147db 0 small_claimed_address
+PUBLIC 14866 0 small_check_region
+PUBLIC 14cd5 0 small_free_list_get_ptr
+PUBLIC 14d14 0 small_in_use_enumerator
+PUBLIC 15096 0 free_small_botch
+PUBLIC 150fb 0 print_small_free_list
+PUBLIC 15345 0 print_small_region
+PUBLIC 1560b 0 small_free_list_check
+PUBLIC 15982 0 free_list_checksum_botch
+PUBLIC 159a1 0 rack_destroy_regions
+PUBLIC 15a00 0 rack_destroy
+PUBLIC 15a8d 0 create_legacy_scalable_zone
+PUBLIC 15b06 0 legacy_valloc
+PUBLIC 15b36 0 disable_stack_logging_lite
+PUBLIC 15b3e 0 stack_logging_lite_batch_malloc
+PUBLIC 15bc8 0 stack_logging_lite_batch_free
+PUBLIC 15c31 0 stack_logging_lite_valloc
+PUBLIC 15c9b 0 nanov2_claimed_address
+PUBLIC 15cb5 0 nanov2_batch_free
+PUBLIC 15cf6 0 nanov2_pressure_relief
+PUBLIC 15f68 0 nanov2_allocate_new_region
+PUBLIC 1604c 0 nanov2_destroy
+PUBLIC 16094 0 nanov2_forked_malloc
+PUBLIC 160a1 0 nanov2_forked_free
+PUBLIC 160eb 0 nanov2_forked_free_definite_size
+PUBLIC 160f0 0 nanov2_forked_realloc
+PUBLIC 161be 0 nanov2_forked_batch_free
+PUBLIC 161ff 0 nanov2_forked_zone
+PUBLIC 162c1 0 nanov2_forked_calloc
+PUBLIC 162ce 0 nanov2_forked_batch_malloc
+PUBLIC 162db 0 nanov2_forked_claimed_address
+PUBLIC 162e1 0 nanov2_ptr_in_use_enumerator
+PUBLIC 168e5 0 nanov2_check
+PUBLIC 168eb 0 nanov2_print
+PUBLIC 16eb2 0 nanov2_log
+PUBLIC 16eb3 0 nanov2_force_lock
+PUBLIC 16eb4 0 nanov2_force_unlock
+PUBLIC 16eb5 0 nanov2_statistics
+PUBLIC 17062 0 nanov2_locked
+PUBLIC 17065 0 nanov2_reinit_lock
+PUBLIC 17066 0 nano_common_cpu_number_override_set
+PUBLIC 1708f 0 nano_common_deallocate_pages
+PUBLIC 170d6 0 nano_common_default_reader
+PUBLIC 170de 0 malloc_error_break
+PUBLIC 170e9 0 malloc_gdb_po_unsafe
+PUBLIC 17150 0 turn_off_stack_logging
+PUBLIC 172b8 0 zeroify_scalable_zone
+PUBLIC 172e2 0 legacy_zeroing_large_malloc
+PUBLIC 17302 0 legacy_zeroing_large_valloc
+PUBLIC 1732c 0 malloc_destroy_zone
+PUBLIC 17350 0 malloc_create_legacy_default_zone
+PUBLIC 17489 0 malloc_zone_unregister
+PUBLIC 175d4 0 malloc_zone_check_fail
+PUBLIC 17874 0 internal_check
+PUBLIC 1791d 0 malloc_zone_claimed_address
+PUBLIC 1797e 0 malloc_get_zone_name
+PUBLIC 17984 0 vfree
+PUBLIC 1798c 0 malloc_claimed_address
+PUBLIC 17a4e 0 reallocarrayf$DARWIN_EXTSN
+PUBLIC 17a73 0 malloc_enter_process_memory_limit_warn_mode
+PUBLIC 17a77 0 malloc_zone_pressure_relief
+PUBLIC 17b63 0 malloc_zone_batch_free
+PUBLIC 17c42 0 malloc_get_all_zones
+PUBLIC 17d1b 0 _malloc_default_reader
+PUBLIC 17d21 0 malloc_zone_print_ptr_info
+PUBLIC 17d77 0 malloc_zone_check
+PUBLIC 17dd1 0 malloc_zone_print
+PUBLIC 17e27 0 malloc_zone_log
+PUBLIC 17e7a 0 mag_set_thread_index
+PUBLIC 17e85 0 malloc_error
+PUBLIC 17e8d 0 DefaultMallocError
+PUBLIC 17f16 0 _malloc_fork_child
+PUBLIC 17fe4 0 mstats
+PUBLIC 18031 0 malloc_zone_enable_discharge_checking
+PUBLIC 18049 0 malloc_zone_disable_discharge_checking
+PUBLIC 1805f 0 malloc_zone_discharge
+PUBLIC 180a2 0 malloc_zone_enumerate_discharged_pointers
+PUBLIC 18111 0 set_malloc_singlethreaded
+PUBLIC 18123 0 malloc_singlethreaded
+PUBLIC 1814d 0 malloc_debug
+PUBLIC 18169 0 default_zone_size
+PUBLIC 181b9 0 default_zone_destroy
+PUBLIC 181fe 0 default_zone_batch_free
+PUBLIC 18252 0 default_zone_pressure_relief
+PUBLIC 182a4 0 default_zone_malloc_claimed_address
+PUBLIC 182f2 0 default_zone_ptr_in_use_enumerator
+PUBLIC 1836d 0 default_zone_check
+PUBLIC 183b0 0 default_zone_print
+PUBLIC 18401 0 default_zone_log
+PUBLIC 18454 0 default_zone_force_lock
+PUBLIC 18497 0 default_zone_force_unlock
+PUBLIC 184da 0 default_zone_statistics
+PUBLIC 1852d 0 default_zone_locked
+PUBLIC 18570 0 default_zone_reinit_lock
+PUBLIC 185b3 0 malloc_freezedry
+PUBLIC 1867d 0 malloc_jumpstart
+PUBLIC 1873c 0 frozen_malloc
+PUBLIC 18744 0 frozen_calloc
+PUBLIC 1874f 0 frozen_valloc
+PUBLIC 18757 0 frozen_free
+PUBLIC 18758 0 frozen_realloc
+PUBLIC 187a6 0 frozen_destroy
+PUBLIC 187a7 0 nano_forked_zone
+PUBLIC 18869 0 nano_forked_malloc
+PUBLIC 18876 0 nano_forked_calloc
+PUBLIC 18883 0 nano_forked_free
+PUBLIC 188be 0 nano_forked_realloc
+PUBLIC 1898a 0 nano_destroy
+PUBLIC 189c8 0 nano_forked_batch_malloc
+PUBLIC 189d5 0 nano_forked_batch_free
+PUBLIC 18a2b 0 nano_forked_free_definite_size
+PUBLIC 18a66 0 nano_forked_claimed_address
+PUBLIC 18a6c 0 nano_create_zone
+PUBLIC 18ca1 0 nano_malloc_scribble
+PUBLIC 18d17 0 nano_free_scribble
+PUBLIC 18dc5 0 nano_batch_free
+PUBLIC 18e06 0 nano_free_definite_size_scribble
+PUBLIC 18ece 0 nano_pressure_relief
+PUBLIC 197ad 0 nano_claimed_address
+PUBLIC 19808 0 nano_init
+PUBLIC 19809 0 nano_configure
+PUBLIC 1980a 0 _nano_vet_and_size_of_live
+PUBLIC 1999d 0 nano_ptr_in_use_enumerator
+PUBLIC 1a15d 0 nanozone_check
+PUBLIC 1a1a0 0 nano_print
+PUBLIC 1a60c 0 nano_log
+PUBLIC 1a60d 0 nano_force_lock
+PUBLIC 1a65e 0 nano_force_unlock
+PUBLIC 1a6b4 0 nano_statistics
+PUBLIC 1a7ea 0 nano_locked
+PUBLIC 1a861 0 nano_reinit_lock
+PUBLIC 1a882 0 count_free
+PUBLIC 1a95c 0 __delete_uniquing_table_memory_while_locked
+PUBLIC 1a9a3 0 __destroy_uniquing_table
+PUBLIC 1a9d8 0 __stack_logging_fork_child
+PUBLIC 1a9f5 0 __stack_logging_locked
+PUBLIC 1aa3f 0 __mach_stack_logging_start_reading
+PUBLIC 1aa67 0 retain_file_streams_for_task
+PUBLIC 1add3 0 __mach_stack_logging_stop_reading
+PUBLIC 1aea1 0 release_file_streams_for_task
+PUBLIC 1af32 0 destroy_cache_for_file_streams
+PUBLIC 1af8c 0 __mach_stack_logging_set_file_path
+PUBLIC 1af8f 0 __mach_stack_logging_get_frames
+PUBLIC 1b184 0 update_cache_for_file_streams
+PUBLIC 1b97b 0 __mach_stack_logging_get_frames_for_stackid
+PUBLIC 1ba43 0 __mach_stack_logging_enumerate_records
+PUBLIC 1bdd3 0 __mach_stack_logging_stackid_for_vm_region
+PUBLIC 1be41 0 __mach_stack_logging_frames_for_uniqued_stack
+PUBLIC 1be49 0 unwind_stack_from_table_index
+PUBLIC 1bf54 0 __mach_stack_logging_uniquing_table_read_stack
+PUBLIC 1bf7f 0 __mach_stack_logging_copy_uniquing_table
+PUBLIC 1c02c 0 __mach_stack_logging_uniquing_table_release
+PUBLIC 1c05c 0 free_uniquing_table_chunks
+PUBLIC 1c0a5 0 __mach_stack_logging_uniquing_table_retain
+PUBLIC 1c0a9 0 __mach_stack_logging_uniquing_table_sizeof
+PUBLIC 1c0c8 0 __mach_stack_logging_uniquing_table_serialize
+PUBLIC 1c1c8 0 __mach_stack_logging_uniquing_table_copy_from_serialized
+PUBLIC 1c317 0 create_log_file
+PUBLIC 1c7ce 0 append_int
+PUBLIC 1c858 0 delete_logging_file
+PUBLIC 1c8a5 0 open_log_file_at_path
+PUBLIC 1c92f 0 open_log_file_from_directory
+PUBLIC 1ca73 0 map_shared_memory_from_task
+PUBLIC 1cb01 0 insert_node
+PUBLIC 1cd32 0 tiny_claimed_address
+PUBLIC 1cdbd 0 tiny_check_region
+PUBLIC 1d533 0 tiny_in_use_enumerator
+PUBLIC 1d973 0 free_tiny_botch
+PUBLIC 1d9d8 0 tiny_batch_free
+PUBLIC 1dcd5 0 print_tiny_free_list
+PUBLIC 1de7e 0 print_tiny_region
+PUBLIC 1e27d 0 tiny_free_list_check
+PUBLIC 1e58d 0 free_list_checksum_botch
+PUBLIC 1e5ac 0 malloc_printf
+PUBLIC 1e65b 0 _malloc_put
+PUBLIC 1e7b4 0 malloc_zone_error
+PUBLIC 22b20 0 levels_num_words
+PUBLIC 22b70 0 slots_by_size_class
+PUBLIC 22bb0 0 madvise_policy_env
+PUBLIC 22bd0 0 madvise_policy_bootarg
+PUBLIC 22bf0 0 single_arena_env
+PUBLIC 22c10 0 single_arena_bootarg
+PUBLIC 22c30 0 scan_policy_env
+PUBLIC 22c50 0 scan_policy_bootarg
+PUBLIC 22c70 0 size_class_blocks_env
+PUBLIC 22c90 0 size_class_blocks_bootarg
+PUBLIC 22ca9 0 madvise_immediate
+PUBLIC 22cb3 0 madvise_warning
+PUBLIC 22cbb 0 madvise_critical
+PUBLIC 22cc8 0 nanov2_max_region_base
+PUBLIC 22cd0 0 mode_boot_arg
+PUBLIC 22cdc 0 inactive_mode
+PUBLIC 22ce5 0 enabled_mode
+PUBLIC 22ced 0 forced_mode
+PUBLIC 22d00 0 nano_max_magazines_boot_arg
+PUBLIC 22d20 0 max_magazines_boot_arg
+PUBLIC 22d50 0 __invalid_stack_id
+PUBLIC 22d60 0 my_mkstemps.padchar
+PUBLIC 22da0 0 Malloc_Facility
+PUBLIC 22dc0 0 __libsystem_mallocVersionString
+PUBLIC 22e00 0 __libsystem_mallocVersionNumber
+PUBLIC 25380 0 purgeable_introspect
+PUBLIC 253f0 0 szone_introspect
+PUBLIC 25460 0 nanov2_introspect
+PUBLIC 254f8 0 nano_introspect
+PUBLIC 25580 0 recirc_retained_regions
+PUBLIC 25584 0 szone_check_modulo
+PUBLIC 25590 0 nanov2_policy_config
+PUBLIC 255b0 0 block_units_by_size_class
+PUBLIC 255f0 0 nanov2_set_block_scan_policy.first_fit_key
+PUBLIC 255f9 0 nanov2_set_block_scan_policy.min_key
+PUBLIC 255fd 0 nanov2_set_block_scan_policy.max_key
+PUBLIC 25601 0 nanov2_set_block_scan_policy.lim_key
+PUBLIC 25608 0 malloc_check_each
+PUBLIC 2560c 0 _os_cpu_number_override
+PUBLIC 25610 0 malloc_check_sleep
+PUBLIC 25618 0 pFRZCounterLive
+PUBLIC 25620 0 pFRZCounterDrain
+PUBLIC 25628 0 default_zone_introspect
+PUBLIC 25698 0 nanozone_check_modulo
+PUBLIC 2569c 0 logging_use_compaction
+PUBLIC 256a0 0 index_file_descriptor
+PUBLIC 26000 0 virtual_default_zone
+PUBLIC 27000 0 gCRAnnotations
+PUBLIC 27040 0 szone_check_counter
+PUBLIC 27044 0 szone_check_start
+PUBLIC 27048 0 max_magazines
+PUBLIC 27050 0 malloc_entropy
+PUBLIC 27060 0 max_lite_mallocs
+PUBLIC 27070 0 nanov2_madvise_policy
+PUBLIC 27080 0 first_block_offset_by_size_class
+PUBLIC 270c0 0 last_block_offset_by_size_class
+PUBLIC 27100 0 ptr_offset_to_size_class
+PUBLIC 27200 0 _malloc_engaged_nano
+PUBLIC 27204 0 nano_common_max_magazines
+PUBLIC 27208 0 nano_common_max_magazines_is_ncpu
+PUBLIC 27210 0 malloc_num_zones
+PUBLIC 27214 0 malloc_num_zones_allocated
+PUBLIC 27218 0 malloc_zones
+PUBLIC 27220 0 malloc_logger
+PUBLIC 27228 0 malloc_debug_flags
+PUBLIC 2722c 0 malloc_tracing_enabled
+PUBLIC 27230 0 malloc_check_start
+PUBLIC 27234 0 malloc_check_counter
+PUBLIC 27238 0 phys_ncpus
+PUBLIC 2723c 0 logical_ncpus
+PUBLIC 27240 0 hyper_shift
+PUBLIC 27244 0 nanozone_check_counter
+PUBLIC 27248 0 nanozone_check_start
+PUBLIC 27250 0 stack_logging_enable_logging
+PUBLIC 27254 0 stack_logging_dontcompact
+PUBLIC 27258 0 stack_logging_finished_init
+PUBLIC 2725c 0 stack_logging_postponed
+PUBLIC 27260 0 stack_logging_mode
+PUBLIC 27268 0 __stack_log_file_path__
+PUBLIC 27270 0 __mach_stack_logging_shared_memory_address
+PUBLIC 27278 0 _malloc_no_asl_log
+PUBLIC 27280 0 entropic_address
+PUBLIC 27288 0 entropic_limit
+PUBLIC 27290 0 stack_logging_lite_enabled
+PUBLIC 27298 0 stack_logging_lite_malloc.num_mallocs
+PUBLIC 272a0 0 nanov2_config_predicate
+PUBLIC 272a8 0 _malloc_entropy_initialized
+PUBLIC 272ac 0 _malloc_lock
+PUBLIC 272b0 0 lite_zone
+PUBLIC 272b8 0 malloc_default_purgeable_zone.dpz
+PUBLIC 272c0 0 frames
+PUBLIC 272c8 0 num_frames
+PUBLIC 272cc 0 malloc_check_abort
+PUBLIC 272d0 0 warn_mode_entered
+PUBLIC 272d4 0 warn_mode_disable_retries
+PUBLIC 272d8 0 _malloc_initialize_pred
+PUBLIC 272e0 0 set_malloc_singlethreaded.warned
+PUBLIC 272e4 0 malloc_singlethreaded.warned
+PUBLIC 272e8 0 initial_default_zone
+PUBLIC 272f0 0 counterAlice
+PUBLIC 272f4 0 counterBob
+PUBLIC 272f8 0 msl_type_enabled_at_runtime
+PUBLIC 272fc 0 is_eligible_for_lite_mode_mre_handling.is_eligible
+PUBLIC 27300 0 is_eligible_for_lite_mode_mre_handling.needs_check
+PUBLIC 27310 0 uniquing_table_memory_was_deleted
+PUBLIC 27318 0 pre_write_buffers
+PUBLIC 27320 0 last_logged_malloc_address
+PUBLIC 27328 0 stack_buffer
+PUBLIC 27330 0 __prepare_to_log_stacks_stage2.stage2done
+PUBLIC 27334 0 stack_logging_lock
+PUBLIC 27338 0 thread_doing_logging
+PUBLIC 27340 0 remote_fd_list_lock
+PUBLIC 27344 0 remote_task_fd_count
+PUBLIC 27350 0 remote_fds
+PUBLIC 273e0 0 next_remote_task_fd
+PUBLIC 273e4 0 open_log_file.already_reaped
+PUBLIC 273e8 0 debug_mode
+PUBLIC 273ec 0 malloc_error_stop
+PUBLIC 273f0 0 malloc_error_sleep
+STACK CFI INIT 11667 38 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1169f 1f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 116be 9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT bbf3 c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT c506 64 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 11738 34 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1176c 3e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 117aa 4b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 117f5 1bf .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 119c4 21f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 11bf4 24a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1282f 39 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT d55c 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT d3ee 17 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT d405 17 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12a94 c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12aa0 c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12aac 17 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12ac3 17 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12b0f c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12b91 17 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12ba8 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12bae 2a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12bd8 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12be0 26 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12c06 21 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12c27 1c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12c87 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12c92 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 8bb4 57 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 12c98 23 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 4353 fb .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2b63 7 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 971f 40 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 7e53 d6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 766c 67 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a057 10 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 13c17 13f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 140dc 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 97fd de .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 14221 7e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 22aa 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 144df 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 6933 a9 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 147db 8b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 14cd5 3f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 5c36 ec .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 15982 1f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 15b06 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT cc1e 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT c8ef 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 15b36 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT cc5a 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT fb4b e0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT eac5 19e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT f32b d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT f2eb d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 16094 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 160eb 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 162c1 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 162ce d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 162db 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT f2f9 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 168e5 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 16eb2 1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 16eb3 1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 16eb4 1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 17062 3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 17065 1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 17066 29 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 170d6 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3e24 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 172b8 2a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 172e2 20 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 8275 7 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1797e 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 17984 5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 8355 1a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 17a73 1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 17d1b 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 17e7a b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 17e85 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18031 18 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18049 16 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18111 12 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1873c 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18744 b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1874f 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18757 1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 187a6 1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 10f4b 1f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18869 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18876 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 114f9 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 189c8 d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 114bc d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 18a66 6 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 10f6a a0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 197ad 5b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19808 1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 19809 1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 114c9 30 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a60c 1 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT a974 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT ca87 2c .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 102f1 26 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1037a 21 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1a9d8 1d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 7d07 15 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1af8c 3 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1be41 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c0a5 4 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1c0a9 1f .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3b7b 11e .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1cd32 8b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 3f77 1b5 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1e58d 1f .cfa: $rsp 8 + .ra: .cfa -8 + ^
